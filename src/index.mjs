@@ -47,6 +47,29 @@ class CoreEngine {
      * @site https://github.com/EvitcaStudio/Pulse
      */
     pulse = Pulse;
+    /**
+     * The version of the module.
+     */
+    version = "VERSION_REPLACE_ME";
 }
 
 export const Core = new CoreEngine();
+
+const pluginName = `Core@v${Core.version}`;
+const backgroundColor = '#435058'; // Dark navy blue
+const color = '#fff'; // White text color
+const fontFamily = 'Arial, sans-serif';
+const borderLeft = '5px solid #dcf763';
+
+const logStyle = `
+  background-color: ${backgroundColor};
+  color: ${color};
+  padding: 6px 15px;
+  font-family: ${fontFamily};
+  font-weight: bold;
+  font-style: italic;
+  border-left: ${borderLeft};
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+`;
+
+console.log(`%c${pluginName}`, logStyle, 'https://github.com/EvitcaStudio/Core');

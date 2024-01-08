@@ -8,8 +8,7 @@ const repo = JSON.stringify(packageJSON.repository.url).replaceAll('.git', '').r
 const date = new Date();
 const UTCTime = date.toLocaleString('en-US', { timeZone: 'UTC', timeZoneName: 'short' });
 
-const banner = `
-/**
+const banner = `/**
  * ${moduleName}@${version} ${repo}
  * Compiled ${UTCTime}
  * 

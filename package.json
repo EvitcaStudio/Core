@@ -5,8 +5,8 @@
   "main": "dist/core.min.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-banner-script.js",
-    "build:prod": "npx webpack --mode production && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-banner-script.js"
+    "build": "npx webpack && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-version-script.js && node add-banner-script.js",
+    "build:prod": "npx webpack --mode production && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-version-script.js && node add-banner-script.js"
   },
   "keywords": [],
   "author": "https://github.com/doubleactii",
