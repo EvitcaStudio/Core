@@ -9,7 +9,7 @@
     "build:prod": "npx webpack --mode production && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs"
   },
   "keywords": [],
-  "author": "doubleactii",
+  "author": "https://github.com/doubleactii",
   "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "uglify-js": "^3.17.4",
