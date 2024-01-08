@@ -8,8 +8,8 @@
     "build": "npx webpack"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "doubleactii",
+  "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
