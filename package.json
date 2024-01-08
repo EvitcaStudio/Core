@@ -5,12 +5,16 @@
   "main": "dist/core.min.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs",
-    "build:prod": "npx webpack --mode production && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs"
+    "build": "npx webpack && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-banner-script.js",
+    "build:prod": "npx webpack --mode production && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-banner-script.js"
   },
   "keywords": [],
   "author": "https://github.com/doubleactii",
   "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvitcaStudio/Core.git"
+  },
   "devDependencies": {
     "uglify-js": "^3.17.4",
     "webpack": "^5.89.0",
