@@ -37,7 +37,7 @@ module.exports = {
      * production: This mode is optimized for production, and includes features like minification, tree shaking, and other performance optimizations.
      * none: This mode disables all default optimizations and settings.
      */
-    mode: 'none',
+    mode: 'development',
     /**
      * OPTIONAL
      * npx webpack --watch (can also enable it via this flag on the npx webpack command)
