@@ -2,7 +2,7 @@
   "name": "core",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/core.mjs",
+  "main": "dist/core.min.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs",
