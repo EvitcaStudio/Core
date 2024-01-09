@@ -1,12 +1,13 @@
 {
   "name": "core",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Core module is a versatile collection of specialized modules designed to enhance the game development experience.",
   "main": "dist/core.min.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-version-script.js && node add-banner-script.js",
-    "build:prod": "npx webpack --mode production && uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs && node add-version-script.js && node add-banner-script.js"
+    "build": "npx webpack && npm run build:minify && node add-version-script.js && node add-banner-script.js",
+    "build:minify": "uglifyjs dist/core.min.mjs -m -c --comments -o dist/core.min.mjs",
+    "build:prod": "npx webpack --mode production && npm run build:minify && node add-version-script.js && node add-banner-script.js"
   },
   "keywords": [],
   "author": "https://github.com/doubleactii",

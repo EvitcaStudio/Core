@@ -23,6 +23,11 @@ let sourceCode = fs.readFileSync(sourceFilePath, 'utf-8');
 
 sourceCode = `${banner} ${sourceCode}`;
 
-fs.writeFileSync(sourceFilePath, sourceCode, 'utf-8');
+fs.writeFile(sourceFilePath, sourceCode, 'utf-8', (writeErr) => {
+    if (writeErr) {
+      console.error('Error writing to the output file:', writeErr);
+      return;
+    }
 
-console.log(`${moduleName}@${version} banner added successfully!`);
+    console.log(`${moduleName}@${version} banner added successfully!`);
+});
