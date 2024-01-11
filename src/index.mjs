@@ -5,8 +5,14 @@ import { Chronos } from './submodules/Chronos/dist/chronos.min.mjs';
 import { Utils } from './submodules/Utils/dist/utils.min.mjs';
 import { StateManager, State } from './submodules/StateManager/dist/state-manager.min.mjs';
 import { Pulse } from './submodules/Pulse/dist/pulse.min.mjs';
+import { Group } from './submodules/Group/dist/group.min.mjs';
 
 class CoreEngine {
+    /**
+     * The Group module is a powerful utility designed to simplify the manipulation of collections in JavaScript. It enables you to treat a set of elements as a single unit, allowing you to perform actions on the entire group without the need for cumbersome loops.
+     * @site https://github.com/EvitcaStudio/Group
+     */
+    Group = Group;
     /**
      * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.
      * @site https://github.com/EvitcaStudio/Tween

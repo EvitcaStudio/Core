@@ -19,3 +19,6 @@
 [submodule "src/submodules/Pulse"]
 	path = src/submodules/Pulse
 	url = https://github.com/EvitcaStudio/Pulse.git
+[submodule "src/submodules/Group"]
+	path = src/submodules/Group
+	url = https://github.com/EvitcaStudio/Group.git
