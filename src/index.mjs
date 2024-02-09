@@ -62,10 +62,10 @@ class CoreEngine {
 export const Core = new CoreEngine();
 
 const pluginName = `Core@v${Core.version}`;
-const backgroundColor = '#435058'; // Dark navy blue
+const backgroundColor = '#274472'; // Dark navy blue
 const color = '#fff'; // White text color
 const fontFamily = 'Arial, sans-serif';
-const borderLeft = '5px solid #dcf763';
+const borderLeft = '5px solid #BFD7ED';
 
 const logStyle = `
   background-color: ${backgroundColor};
