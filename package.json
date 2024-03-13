@@ -1,6 +1,6 @@
 {
   "name": "core",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "The Core module is a versatile collection of specialized modules designed to enhance the game development experience.",
   "main": "dist/core.min.mjs",
   "scripts": {
