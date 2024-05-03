@@ -420,6 +420,60 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/submodules/collector/docs/script/inherited-summary.js",
+    "file/src/submodules/Collector/docs/script/inherited-summary.js.html",
+    "src/submodules/Collector/docs/script/inherited-summary.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/inner-link.js",
+    "file/src/submodules/Collector/docs/script/inner-link.js.html",
+    "src/submodules/Collector/docs/script/inner-link.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/manual.js",
+    "file/src/submodules/Collector/docs/script/manual.js.html",
+    "src/submodules/Collector/docs/script/manual.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/patch-for-local.js",
+    "file/src/submodules/Collector/docs/script/patch-for-local.js.html",
+    "src/submodules/Collector/docs/script/patch-for-local.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/prettify/prettify.js",
+    "file/src/submodules/Collector/docs/script/prettify/prettify.js.html",
+    "src/submodules/Collector/docs/script/prettify/prettify.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/pretty-print.js",
+    "file/src/submodules/Collector/docs/script/pretty-print.js.html",
+    "src/submodules/Collector/docs/script/pretty-print.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/search.js",
+    "file/src/submodules/Collector/docs/script/search.js.html",
+    "src/submodules/Collector/docs/script/search.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/search_index.js",
+    "file/src/submodules/Collector/docs/script/search_index.js.html",
+    "src/submodules/Collector/docs/script/search_index.js",
+    "file"
+  ],
+  [
+    "src/submodules/collector/docs/script/test-summary.js",
+    "file/src/submodules/Collector/docs/script/test-summary.js.html",
+    "src/submodules/Collector/docs/script/test-summary.js",
+    "file"
+  ],
+  [
     "src/submodules/collector/src/collector.mjs",
     "file/src/submodules/Collector/src/collector.mjs.html",
     "src/submodules/Collector/src/collector.mjs",
@@ -490,6 +544,60 @@ window.esdocSearchIndex = [
     "class/src/submodules/Collector/src/collector.mjs~CollectorSingleton.html#static-member-WARNING_LIMIT",
     "src/submodules/Collector/src/collector.mjs~CollectorSingleton.WARNING_LIMIT",
     "member"
+  ],
+  [
+    "src/submodules/pulse/docs/script/inherited-summary.js",
+    "file/src/submodules/Pulse/docs/script/inherited-summary.js.html",
+    "src/submodules/Pulse/docs/script/inherited-summary.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/inner-link.js",
+    "file/src/submodules/Pulse/docs/script/inner-link.js.html",
+    "src/submodules/Pulse/docs/script/inner-link.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/manual.js",
+    "file/src/submodules/Pulse/docs/script/manual.js.html",
+    "src/submodules/Pulse/docs/script/manual.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/patch-for-local.js",
+    "file/src/submodules/Pulse/docs/script/patch-for-local.js.html",
+    "src/submodules/Pulse/docs/script/patch-for-local.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/prettify/prettify.js",
+    "file/src/submodules/Pulse/docs/script/prettify/prettify.js.html",
+    "src/submodules/Pulse/docs/script/prettify/prettify.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/pretty-print.js",
+    "file/src/submodules/Pulse/docs/script/pretty-print.js.html",
+    "src/submodules/Pulse/docs/script/pretty-print.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/search.js",
+    "file/src/submodules/Pulse/docs/script/search.js.html",
+    "src/submodules/Pulse/docs/script/search.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/search_index.js",
+    "file/src/submodules/Pulse/docs/script/search_index.js.html",
+    "src/submodules/Pulse/docs/script/search_index.js",
+    "file"
+  ],
+  [
+    "src/submodules/pulse/docs/script/test-summary.js",
+    "file/src/submodules/Pulse/docs/script/test-summary.js.html",
+    "src/submodules/Pulse/docs/script/test-summary.js",
+    "file"
   ],
   [
     "src/submodules/pulse/src/pulse.mjs",
@@ -1170,6 +1278,60 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/submodules/statemanager/docs/script/inherited-summary.js",
+    "file/src/submodules/StateManager/docs/script/inherited-summary.js.html",
+    "src/submodules/StateManager/docs/script/inherited-summary.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/inner-link.js",
+    "file/src/submodules/StateManager/docs/script/inner-link.js.html",
+    "src/submodules/StateManager/docs/script/inner-link.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/manual.js",
+    "file/src/submodules/StateManager/docs/script/manual.js.html",
+    "src/submodules/StateManager/docs/script/manual.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/patch-for-local.js",
+    "file/src/submodules/StateManager/docs/script/patch-for-local.js.html",
+    "src/submodules/StateManager/docs/script/patch-for-local.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/prettify/prettify.js",
+    "file/src/submodules/StateManager/docs/script/prettify/prettify.js.html",
+    "src/submodules/StateManager/docs/script/prettify/prettify.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/pretty-print.js",
+    "file/src/submodules/StateManager/docs/script/pretty-print.js.html",
+    "src/submodules/StateManager/docs/script/pretty-print.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/search.js",
+    "file/src/submodules/StateManager/docs/script/search.js.html",
+    "src/submodules/StateManager/docs/script/search.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/search_index.js",
+    "file/src/submodules/StateManager/docs/script/search_index.js.html",
+    "src/submodules/StateManager/docs/script/search_index.js",
+    "file"
+  ],
+  [
+    "src/submodules/statemanager/docs/script/test-summary.js",
+    "file/src/submodules/StateManager/docs/script/test-summary.js.html",
+    "src/submodules/StateManager/docs/script/test-summary.js",
+    "file"
+  ],
+  [
     "src/submodules/statemanager/src/state-manager.mjs",
     "file/src/submodules/StateManager/src/state-manager.mjs.html",
     "src/submodules/StateManager/src/state-manager.mjs",
@@ -1246,6 +1408,60 @@ window.esdocSearchIndex = [
     "class/src/submodules/StateManager/src/state-manager.mjs~StateManager.html#instance-member-version",
     "src/submodules/StateManager/src/state-manager.mjs~StateManager#version",
     "member"
+  ],
+  [
+    "src/submodules/tween/docs/script/inherited-summary.js",
+    "file/src/submodules/Tween/docs/script/inherited-summary.js.html",
+    "src/submodules/Tween/docs/script/inherited-summary.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/inner-link.js",
+    "file/src/submodules/Tween/docs/script/inner-link.js.html",
+    "src/submodules/Tween/docs/script/inner-link.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/manual.js",
+    "file/src/submodules/Tween/docs/script/manual.js.html",
+    "src/submodules/Tween/docs/script/manual.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/patch-for-local.js",
+    "file/src/submodules/Tween/docs/script/patch-for-local.js.html",
+    "src/submodules/Tween/docs/script/patch-for-local.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/prettify/prettify.js",
+    "file/src/submodules/Tween/docs/script/prettify/prettify.js.html",
+    "src/submodules/Tween/docs/script/prettify/prettify.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/pretty-print.js",
+    "file/src/submodules/Tween/docs/script/pretty-print.js.html",
+    "src/submodules/Tween/docs/script/pretty-print.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/search.js",
+    "file/src/submodules/Tween/docs/script/search.js.html",
+    "src/submodules/Tween/docs/script/search.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/search_index.js",
+    "file/src/submodules/Tween/docs/script/search_index.js.html",
+    "src/submodules/Tween/docs/script/search_index.js",
+    "file"
+  ],
+  [
+    "src/submodules/tween/docs/script/test-summary.js",
+    "file/src/submodules/Tween/docs/script/test-summary.js.html",
+    "src/submodules/Tween/docs/script/test-summary.js",
+    "file"
   ],
   [
     "src/submodules/tween/src/tween.mjs",

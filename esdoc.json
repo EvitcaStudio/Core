@@ -3,7 +3,7 @@
     "destination": "./docs",
     "includes": ["\\.js$", "\\.mjs$"],
     "index": "./README.md",
-    "excludes": ["logger.min.mjs", "tween.min.mjs", "utils.min.mjs", "add-banner-script.js", "add-version-script.js", "webpack.config.js"],
+    "excludes": ["\\.min.mjs$", "\\.min.js$", "add-banner-script.js", "add-version-script.js", "webpack.config.js"],
     "plugins": [
     {
       "name": "esdoc-standard-plugin",
@@ -16,9 +16,9 @@
         "typeInference": {"enable": true},
         "brand": {
           "logo": "./evitcastudio_round_branding.png",
-          "title": "Pathway",
+          "title": "Core",
           "description": "A plugin that will enable pathfinding functionality.",
-          "repository": "https://github.com/EvitcaStudio/Pathway",
+          "repository": "https://github.com/EvitcaStudio/Core",
           "author": "https://github.com/doubleactii",
           "image": "./evitcastudio_round_branding.png"
         }
