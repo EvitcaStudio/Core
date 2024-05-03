@@ -1,9 +1,9 @@
 {
     "source": "./src",
     "destination": "./docs",
-    "includes": ["\\.js$", "\\.mjs$"],
+    "includes": ["\\.mjs$"],
     "index": "./README.md",
-    "excludes": ["\\.min.mjs$", "\\.min.js$", "add-banner-script.js", "add-version-script.js", "webpack.config.js"],
+    "excludes": ["\\.min.mjs$"],
     "plugins": [
     {
       "name": "esdoc-standard-plugin",
