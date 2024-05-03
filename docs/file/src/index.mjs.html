@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.mjs | Pathway</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A plugin that will enable pathfinding functionality."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Pathway"><meta property="twitter:description" content="A plugin that will enable pathfinding functionality."><meta property="twitter:image" content="./evitcastudio_round_branding.png"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/EvitcaStudio/Pathway"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.mjs~CoreEngine.html">CoreEngine</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Core">Core</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-collector-src">submodules/Collector/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Collector/src/collector.mjs~CollectorSingleton.html">CollectorSingleton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Collector">Collector</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-pulse-src">submodules/Pulse/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Pulse/src/pulse.mjs~PulseComponent.html">PulseComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Pulse">Pulse</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-resonance-src">submodules/Resonance/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Resonance/src/resonance.mjs~ResonanceSingleton.html">ResonanceSingleton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Resonance/src/sound.mjs~Sound.html">Sound</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Resonance">Resonance</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-statemanager-src">submodules/StateManager/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/StateManager/src/state-manager.mjs~State.html">State</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/StateManager/src/state-manager.mjs~StateManager.html">StateManager</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-tween-src">submodules/Tween/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Tween/src/tween.mjs~Tween.html">Tween</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-utils-src">submodules/Utils/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Utils/src/utils.mjs~UtilsSingleton.html">UtilsSingleton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Utils">Utils</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.mjs</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { Tween } from &apos;./submodules/Tween/src/tween.mjs&apos;;
+import { Resonance } from &apos;./submodules/Resonance/src/resonance.mjs&apos;;
+import { Collector } from &apos;./submodules/Collector/src/collector.mjs&apos;;
+import { Utils } from &apos;./submodules/Utils/src/utils.mjs&apos;;
+import { StateManager, State } from &apos;./submodules/StateManager/src/state-manager.mjs&apos;;
+import { Pulse } from &apos;./submodules/Pulse/src/pulse.mjs&apos;;
+
+class CoreEngine {
+    /**
+     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object&apos;s properties from one value to another over a specified duration using easing functions.
+     * @site https://github.com/EvitcaStudio/Tween
+     */
+    Tween = Tween;
+    /**
+     * A class representing a state machine manager.
+     * @site https://github.com/EvitcaStudio/StateManager
+     */
+    StateManager = StateManager;
+    /**
+     * A class representing a state.
+     * @site https://github.com/EvitcaStudio/StateManager
+     */
+    State = State;
+    /**
+     * A plugin that will easily allow you to play sounds and control them.
+     * @site https://github.com/EvitcaStudio/Resonance
+     */
+    resonance = Resonance;
+    /**
+     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.
+     * @site https://github.com/EvitcaStudio/Collector
+     */
+    collector = Collector;
+    /**
+     * A small plugin full of useful things.
+     * @site https://github.com/EvitcaStudio/Utils
+     */
+    utils = Utils;
+    /**
+     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!
+     * @site https://github.com/EvitcaStudio/Pulse
+     */
+    pulse = Pulse;
+    /**
+     * The version of the module.
+     */
+    version = &quot;VERSION_REPLACE_ME&quot;;
+}
+
+export const Core = new CoreEngine();
+/**
+ * @ignore
+ */
+const pluginName = `Core@v${Core.version}`;
+/**
+ * @ignore
+ */
+const backgroundColor = &apos;#274472&apos;; // Dark navy blue
+/**
+ * @ignore
+ */
+const color = &apos;#fff&apos;; // White text color
+/**
+ * @ignore
+ */
+const fontFamily = &apos;Arial, sans-serif&apos;;
+/**
+ * @ignore
+ */
+const borderLeft = &apos;5px solid #BFD7ED&apos;;
+/**
+ * @ignore
+ */
+const logStyle = `
+  background-color: ${backgroundColor};
+  color: ${color};
+  padding: 6px 15px;
+  font-family: ${fontFamily};
+  font-weight: bold;
+  font-style: italic;
+  border-left: ${borderLeft};
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+`;
+
+console.log(`%c${pluginName}`, logStyle, &apos;https://github.com/EvitcaStudio/Core&apos;);</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

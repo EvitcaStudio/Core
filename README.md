@@ -1,13 +1,29 @@
-# Core
+# Core Module
 
-The Core module is a versatile collection of specialized modules designed to enhance the game development experience. Offering seamless integration and a user-friendly interface, this powerhouse module simplifies the utilization of various game development tools. Handy, powerful, and feature-rich, it accelerates productivity by providing a consolidated toolkit for game developers.
+The Core module is a versatile collection of specialized modules designed to enhance the game development experience. Offering seamless integration and a user-friendly interface, this powerhouse module simplifies the utilization of various game development tools. Handy, powerful, and feature-rich, it accelerates productivity by providing a consolidated toolkit for game developers.  
 
-# Import
+## Installation
+
+### ES Module
+
 ```js
-import { Core } from './core.min.mjs';
+import { Core } from './core.mjs';
 ```
 
-# Dynamic Import
+### IIFE (Immediately Invoked Function Expression)
+
 ```js
-const { Core } = await import('./core.min.mjs');
+<script src="core.js"></script>;
+// ...
+window.CoreBundle.Core;
 ```
+
+### CommonJS (CJS) Module
+
+```js
+const { Core } = require('./core.cjs.js');
+```
+
+### Global Dependency
+
+Core relies on the `VYLO` variable being globally accessible.

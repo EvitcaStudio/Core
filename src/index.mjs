@@ -1,28 +1,16 @@
-import { Tween } from './submodules/Tween/dist/tween.min.mjs';
-import { Resonance } from './submodules/Resonance/dist/resonance.min.mjs';
-import { Collector } from './submodules/Collector/dist/collector.min.mjs';
-import { Chronos } from './submodules/Chronos/dist/chronos.min.mjs';
-import { Utils } from './submodules/Utils/dist/utils.min.mjs';
-import { StateManager, State } from './submodules/StateManager/dist/state-manager.min.mjs';
-import { Pulse } from './submodules/Pulse/dist/pulse.min.mjs';
-import { Group } from './submodules/Group/dist/group.min.mjs';
+import { Tween } from './submodules/Tween/src/tween.mjs';
+import { Resonance } from './submodules/Resonance/src/resonance.mjs';
+import { Collector } from './submodules/Collector/src/collector.mjs';
+import { Utils } from './submodules/Utils/src/utils.mjs';
+import { StateManager, State } from './submodules/StateManager/src/state-manager.mjs';
+import { Pulse } from './submodules/Pulse/src/pulse.mjs';
 
 class CoreEngine {
-    /**
-     * The Group module is a powerful utility designed to simplify the manipulation of collections in JavaScript. It enables you to treat a set of elements as a single unit, allowing you to perform actions on the entire group without the need for cumbersome loops.
-     * @site https://github.com/EvitcaStudio/Group
-     */
-    Group = Group;
     /**
      * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.
      * @site https://github.com/EvitcaStudio/Tween
      */
     Tween = Tween;
-    /**
-     * A fully flexible interval/timer with chainable API
-     * @site https://github.com/EvitcaStudio/Chronos
-     */
-    Chronos = Chronos;
     /**
      * A class representing a state machine manager.
      * @site https://github.com/EvitcaStudio/StateManager
@@ -60,13 +48,29 @@ class CoreEngine {
 }
 
 export const Core = new CoreEngine();
-
+/**
+ * @ignore
+ */
 const pluginName = `Core@v${Core.version}`;
+/**
+ * @ignore
+ */
 const backgroundColor = '#274472'; // Dark navy blue
+/**
+ * @ignore
+ */
 const color = '#fff'; // White text color
+/**
+ * @ignore
+ */
 const fontFamily = 'Arial, sans-serif';
+/**
+ * @ignore
+ */
 const borderLeft = '5px solid #BFD7ED';
-
+/**
+ * @ignore
+ */
 const logStyle = `
   background-color: ${backgroundColor};
   color: ${color};

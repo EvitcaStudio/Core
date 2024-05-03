@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">src/submodules/Chronos/src/chronos.mjs | Pathway</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A plugin that will enable pathfinding functionality."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Pathway"><meta property="twitter:description" content="A plugin that will enable pathfinding functionality."><meta property="twitter:image" content="./evitcastudio_round_branding.png"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/EvitcaStudio/Pathway"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.mjs~CoreEngine.html">CoreEngine</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Core">Core</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-backgroundColor">backgroundColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-borderLeft">borderLeft</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-color">color</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fontFamily">fontFamily</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-logStyle">logStyle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-pluginName">pluginName</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-chronos">submodules/Chronos</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-chronos-dist">submodules/Chronos/dist</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Chronos/dist/chronos.min.mjs~i.html">i</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-s">s</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-t">t</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-chronos-src">submodules/Chronos/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Chronos/src/chronos.mjs~Chronos.html">Chronos</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-collector">submodules/Collector</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-collector-src">submodules/Collector/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Collector/src/collector.mjs~CollectorSingleton.html">CollectorSingleton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Collector">Collector</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-group">submodules/Group</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-group-dist">submodules/Group/dist</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Group/dist/group.min.mjs~o.html">o</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-c">c</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-t">t</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-group-src">submodules/Group/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Group/src/group.mjs~Group.html">Group</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-pulse">submodules/Pulse</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-pulse-src">submodules/Pulse/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Pulse/src/pulse.mjs~PulseComponent.html">PulseComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Pulse">Pulse</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-resonance">submodules/Resonance</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-resonance-src">submodules/Resonance/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Resonance/src/resonance.mjs~ResonanceSingleton.html">ResonanceSingleton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Resonance/src/sound.mjs~Sound.html">Sound</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Resonance">Resonance</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-statemanager">submodules/StateManager</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-statemanager-src">submodules/StateManager/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/StateManager/src/state-manager.mjs~State.html">State</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/StateManager/src/state-manager.mjs~StateManager.html">StateManager</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-tween">submodules/Tween</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-tween-src">submodules/Tween/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Tween/src/tween.mjs~Tween.html">Tween</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-utils">submodules/Utils</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UTCTime">UTCTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-banner">banner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-date">date</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-repo">repo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fs">fs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-moduleName">moduleName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-packageJSON">packageJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceCode">sourceCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sourceFilePath">sourceFilePath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-version">version</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-path">path</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#submodules-utils-src">submodules/Utils/src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/submodules/Utils/src/utils.mjs~UtilsSingleton.html">UtilsSingleton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Utils">Utils</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/submodules/Chronos/src/chronos.mjs</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * A fully flexible interval/timer. 
+ * @class Chronos
+ * @license chronos.js is not offering licenses at this time. For licensing contact the author
+ * @author https://github.com/doubleactii
+ */
+/**
+ * The Chronos class  
+ * A fully flexible interval/timer with chainable API
+ * 
+ * @example &lt;caption&gt;Example usage of this class&lt;/caption&gt;
+ * // Create a timer and start it
+ * const timer = new Chronos();
+ * timer.start();
+ * // Or
+ * const timer = new Chronos().start();
+ * 
+ * // Call a function every n ms.
+ * timer.every(5000, () =&gt; { console.log(&apos;call me every 5000ms&apos;); }).start();
+ * 
+ * // Call a function at a specific time in this timer&apos;s duration
+ * timer.at(3000, () =&gt; { console.log(&apos;Called at 3000ms&apos;); });
+ * 
+ * // Create a timer with custom settings
+ * const timer = new Chronos({
+ *  duration: 5000,
+ *  startAt: 1000,
+ *  flow: 1,
+ *  tickRate: 10,
+ *  completionCount: 50,
+ *  timeScale: 2,
+ *  loop: true
+ * });
+ * 
+ */
+export class Chronos {
+	/**
+	 * The base interval rate of this timer
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	MIN_TICK_RATE = 10;
+	/**
+	 * The scale at which to move time forwards
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	timeScale = 1;
+	/**
+	 * The current flow the timer is moving in positive means forward, negative means backward
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	flow = 1;
+	/**
+	 * The starting time of this timer
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	startMs = 0;
+	/**
+	 * The starting date of this timer
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	startStamp = 0;
+	/**
+	 * The current tick the timer is on
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	currentTick = 0;
+	/**
+	 * The tick rate
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	tickRate = 10;
+	/**
+	 * The tick rate that has been effected by timeScale
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	scaledTickRate = 1;
+	/**
+	 * The last stamps&apos;s date
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	lastStamp = 0;
+	/**
+	 * The next stamp&apos;s date
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	expectedStamp = 0;
+	/**
+	 * Whether this timer can finish
+	 * 
+	 * @private
+	 * @type {boolean}
+	 */
+	canFinish = true;
+	/**
+	 * The delta between the last tick and the current tick
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	deltaTime = 0;
+	/**
+	 * The duration of the timer, by default set to Infinity, meaning it has no duration
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	duration = Infinity;
+	/**
+	 * If this timer loops
+	 * 
+	 * @private
+	 * @type {boolean}
+	 */
+	loop = false;
+	/**
+	 * Whether or not this timer will use a duration (if no duration is used, it will run forever until destroyed)
+	 * 
+	 * @private
+	 * @type {boolean}
+	 */
+	hasDuration = false;
+	/**
+	 * The current completion count of the timer
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	completionCount = 0;
+	/**
+	 * An array of accepted events to listen to  
+	 * 
+	 * @private
+	 * @type {array}
+	 */
+	acceptedEvents = [&apos;tick&apos;, &apos;complete&apos;, &apos;rollback&apos;, &apos;destroy&apos;, &apos;pause&apos;, &apos;resume&apos;, &apos;start&apos;, &apos;stop&apos;, &apos;reset&apos;];
+	/**
+	 * Object to store callbacks for events
+	 * 
+	 * @private
+	 * @type {object}
+	 */
+	onHandler = {};
+	/**
+	 * Object to store callbacks for things to happen at a certain time
+	 * 
+	 * @private
+	 * @type {object}
+	 */
+	timeHandler = {};
+	/**
+	 * Object to store callbacks for things that happen at a interval rate
+	 * 
+	 * @private
+	 * @type {object}
+	 */
+	intervalHandler = {};
+	/**
+	 * If this timer is active
+	 * 
+	 * @private
+	 * @type {boolean}
+	 */
+	ticking = false;
+	/**
+	 * If this timer is currently paused
+	 * 
+	 * @private
+	 * @type {boolean}
+	 */
+	paused = false;
+	/**
+	 * Array to store all unique ids generated for callbacks
+	 * 
+	 * @private
+	 * @type {array}
+	 */
+	storedIDs = [];
+	/**
+	 * The timeout id of the self adjusting timer
+	 * 
+	 * @private
+	 * @type {number}
+	 */
+	timeoutId = 0;
+	/**
+	 * @param {object} pSettings - The settings object holding the various settings applicable to this timer
+	 * @param {number} [pSettings.duration = Infinity] - The duration of this timer
+	 * @param {number} [pSettings.startAt = 0] -  The starting time in ms of this timer
+	 * @param {number} [pSettings.flow = 1] - The direction of time in this timer [-1 for reverse, 1 for forward]
+	 * @param {number} [pSettings.tickRate = 10] - The tick rate in ms this timer will run on
+	 * @param {number} [pSettings.completionCount = 0] - The starting completion count of this timer
+	 * @param {number} [pSettings.timeScale = 1] - The scale at which time moves. tickRate * timeScale
+	 * @param {boolean} [pSettings.loop = false] - Whether this timer loops or completes after its duration is reached
+	 */
+	constructor(pSettings) {
+		// Assign settings assigned to Chronos when creating
+		if (typeof(pSettings) === &apos;object&apos; &amp;&amp; !Array.isArray(pSettings) &amp;&amp; pSettings !== null) {
+			if (typeof(pSettings.duration) === &apos;number&apos;) {
+				this.duration = Math.max(Math.round(pSettings.duration), this.tickRate);
+				this.hasDuration = true;
+			}
+			if (typeof(pSettings.startAt) === &apos;number&apos;) this.startAtHandler(pSettings.startAt);
+			if (typeof(pSettings.flow) === &apos;number&apos;) this.flow = this.clamp(pSettings.flow, -1, 1);
+			if (typeof(pSettings.tickRate) === &apos;number&apos;) this.tickRate = Math.max(Math.round(pSettings.tickRate), this.MIN_TICK_RATE);
+			if (typeof(pSettings.completionCount) === &apos;number&apos;) this.completionCount = Math.round(pSettings.completionCount);
+			if (typeof(pSettings.timeScale) === &apos;number&apos;) this.timeScale = pSettings.timeScale;
+			this.loop = pSettings.loop ? true : false;
+		}
+		// Check if this is being ran as a client-side script
+		// If it is we need to solve a drifting issue in the timer due to inactive tabs
+		// When the tab/window is hidden we want to pause the timer
+		// And when it is shown again we want to resume the timer
+		if (globalThis.document) {
+			// Set the name of the hidden property and the change event for visibility
+			let hidden;
+			let visibilityChange;
+			if (typeof document.hidden !== &quot;undefined&quot;) { // Opera 12.10 and Firefox 18 and later support
+				hidden = &quot;hidden&quot;;
+				visibilityChange = &quot;visibilitychange&quot;;
+			} else if (typeof document.msHidden !== &quot;undefined&quot;) {
+				hidden = &quot;msHidden&quot;;
+				visibilityChange = &quot;msvisibilitychange&quot;;
+			} else if (typeof document.webkitHidden !== &quot;undefined&quot;) {
+				hidden = &quot;webkitHidden&quot;;
+				visibilityChange = &quot;webkitvisibilitychange&quot;;
+			}
+			document.addEventListener(visibilityChange, () =&gt; {
+				if (document[hidden]) {
+					this.pause();
+				} else {
+					this.resume();
+				}
+			}, false);
+		}
+		const self = this;
+		/**
+		 * The self adjusting timer / base ticker
+		 * 
+		 * @private
+		 */
+		self.adjuster = () =&gt; {
+			if (self.isTicking()) {
+				const now = Date.now();
+				// This is in the event the handler is being resumed
+				if (!self.lastStamp) self.lastStamp = now;
+				if (!self.expectedStamp) self.expectedStamp = now;
+				const elapsedMS = (now - self.lastStamp);
+				self.deltaTime = elapsedMS / 1000;
+				self.scaledTickRate = self.tickRate / this.timeScale;
+				const difference = this.clamp(now - self.expectedStamp, 0, this.scaledTickRate);
+				self.expectedStamp = now + self.scaledTickRate;
+				self.adjustedTickRate = self.scaledTickRate - difference;
+				self.timeoutId = setTimeout(self.adjuster, self.adjustedTickRate);
+				if (!self.isPaused()) {
+					// Self now is a reference to the current time, if the timer is paused, self now will not incremement further
+					self.now = now;
+					self.tick(self.deltaTime);
+					self.eventHandler();
+				}
+				self.lastStamp = now;
+			}
+		}
+	}
+	/**
+	 * @returns {number} The current time scale of this timer
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the timescale of the timer
+	 * const timeScale = timer.getTimeScale();
+	 */
+	getTimeScale() {
+		return this.timeScale;
+	}
+	/**
+	 * @returns {number} The start date of when the timer started (Date.now())
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the start stamp date of the timer
+	 * const startingStamp = timer.getStartStamp();
+	 */
+	getStartStamp() {
+		return this.startStamp;
+	}
+	/**
+	 * @returns {number} The delta time of the timer
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the delta time of the timer
+	 * const deltaTime = timer.getDeltaTime();
+	 */
+	getDeltaTime() {
+		return this.deltaTime;
+	}
+	/**
+	 * @returns {number} The current amount of ms the timer is at
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the current ms of the timer
+	 * const ms = timer.getMs();
+	 */
+	getMs() {
+		return this.ticksToTime(this.currentTick);
+	}
+	/**
+	 * @returns {number} The current tick of the timer
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the current tick of the timer
+	 * const currentTick = timer.getCurrentTick();
+	 */
+	getCurrentTick() {
+		return this.currentTick;
+	}
+	/**
+	 * @returns {number} The amount of times this timer has completed
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the completiong count of the timer
+	 * const completionCount = timer.getCompletionCount();
+	 */
+	getCompletionCount() {
+		return this.completionCount;
+	}
+	/**
+	 * @returns {number} The time direction of the timer (1 - forward in time, -1 backwards in time)
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the flow of the timer
+	 * const flow = timer.getFlow();
+	 */
+	getFlow() {
+		return this.flow;
+	}
+	/**
+	 * @returns {number} The duration of the timer
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the duration of the timer
+	 * const duration = timer.getDuration();
+	 */
+	getDuration() {
+		return this.duration;
+	}
+	/**
+	 * Sets the max time this timer will go to. pDuration is in ms
+	 * When there is no pDuration, this timer will never complete, and never call any complete event functions
+	 * 
+	 * @param {number} pDuration - The new duration of the timer
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Change the duration of the timer
+	 * timer.setDuration(5000);
+	 * // The timer&apos;s new duration is 5000 ms
+	 */
+	setDuration(pDuration) {
+		if (typeof(pDuration) === &apos;number&apos;) {
+			pDuration = Math.round(pDuration);
+			this.duration = pDuration;
+			this.startAt(this.startMs);
+		}
+		return this;
+	}
+	/**
+	 * Get the percentage of time that has passed in this timer&apos;s duration
+	 * If this timer has no duration set, then 0 is returned.
+	 * 
+	 * @returns {number} The percentage of time that has passed in the timer
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Get the percentage of time that has passed in the timer
+	 * const timePercentage = timer.getPercentage();
+	 */
+	getPercentage() {
+		if (this.hasDuration) return (100 * this.getMs()) / this.duration;
+		return 0;
+	}
+	/**
+	 * Converts seconds into ms
+	 * 
+	 * @param {number} [pSeconds=0] - The amount of seconds to convert into ms
+	 * @returns {number} pSeconds converted to ms
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Convert 5 seconds to ms
+	 * const timeInMs = timer.getMsFromSeconds(5); // 5000
+	 */
+	getMsFromSeconds(pSeconds = 0) {
+		if (typeof(pSeconds) === &apos;number&apos;) return pSeconds * 1000;
+	}
+	/**
+	 * Converts ms into seconds
+	 * 
+	 * @param {number} [pMs=0] - The amount of ms to convert into seconds
+	 * @returns {number} pMs converted to seconds
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Convert 5000 ms to seconds
+	 * const timeInSeconds = timer.getSecondsFromMs(5000); // 5
+	 */
+	getSecondsFromMs(pMs = 0) {
+		if (typeof(pMs) === &apos;number&apos;) return pMs / 1000;
+	}
+	/**
+	 * Converts ticks into ms
+	 * 
+	 * @param {number} pTicks - The amount of ticks to convert into ms
+	 * @returns {number} pTicks converted to ms (Clamped to the duration of the timer)
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Convert 5 ticks to ms
+	 * const msInTicks = timer.ticksToTime(5); // 50
+	 * // The equation is pTicks * timer.getTickRate();
+	 */
+	ticksToTime(pTicks) {
+		if (typeof(pTicks) === &apos;number&apos;) {
+			return this.clamp(pTicks * this.tickRate, 0, this.duration);
+		}
+	}
+	/**
+	 * Converts ms into ticks
+	 * 
+	 * @param {number} pMs - The ms to convert into ticks
+	 * @returns {number} pMs converted to ticks
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Convert 50 ms to ticks
+	 * const ticksInMs = timer.timeToTicks(50); // 5
+	 * // The equation is pMs / timer.getTickRate();
+	 */
+	timeToTicks(pMs) {
+		if (typeof(pMs) === &apos;number&apos;) {
+			return pMs / this.tickRate;
+		}
+	}
+	/**
+	 * 
+	 * If the ticker is currently started and not stopped. Pausing/Resuming has no effect on this state
+	 * 
+	 * @returns {boolean} true if the ticker is currently running, false otherwise
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Check to see if the timer is ticking
+	 * const isTimerTicking = timer.isTicking(); // false (the timer hasn&apos;t been started yet)
+	 * 
+	 * // Elsewhere
+	 * 
+	 * // Start the timer
+	 * timer.start();
+	 * // Check to see if the timer is ticking
+	 * const isTimerTicking = timer.isTicking(); // true
+	 */
+	isTicking() {
+		return this.ticking;
+	}
+	/**
+	 * 
+	 * If the ticker is currently paused
+	 * 
+	 * @returns {boolean} true if the ticker is currently running, false otherwise
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Check to see if the timer is paused
+	 * const isTimerPaused = timer.isPaused(); // false
+	 * 
+	 * // Elsewhere
+	 * 
+	 * // Pause the timer
+	 * timer.pause();
+	 * // Check to see if the timer is paused
+	 * const isTimerPaused = timer.isPaused(); // true
+	 */
+	isPaused() {
+		return this.paused;
+	}
+	/**
+	 * 
+	 * Clamps a value to a max and min range
+	 * 
+	 * @private
+	 * @param {number} pVal - The value to clamp
+	 * @param {number} pMin - The minimum number pVal can be 
+	 * @param {number} pMax - The maximum number pVal can be
+	 * @returns {number} pVal clamped between the ranges of pMin and pMax
+	 */
+	clamp(pVal, pMin, pMax) {
+		return Math.max(pMin, Math.min(pVal, pMax));
+	}
+	/**
+	 * 
+	 * Generates a unique id
+	 * 
+	 * @private
+	 * @param {number} pID - The length of the ID to generate
+	 * @returns {string} A unique ID of the specified length
+	 */
+	generateID(pID = 7) {
+		const chars = &apos;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&apos;;
+		const makeID = function() {
+			let ID = &apos;&apos;;
+			for (let i = 0; i &lt; pID; i++) {
+				ID += chars.charAt(Math.floor(Math.random() * chars.length));
+			}
+			return ID;
+		}
+		let ID = makeID();
+		while(this.storedIDs.includes(ID)) {
+			ID = makeID();
+		}
+		this.storedIDs.push(ID);
+		return ID;
+	}
+	/**
+	 * 
+	 * Attaches a callback to the event name specified. The callback will called when that event happens
+	 * 
+	 * @param {string} pEventName - The event name you want to listen for
+	 * @param {function} pCallback - The callback to attach to this event
+	 * @returns {this} The chronos instance
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Attach events to the timer
+	 * timer.on(&apos;start&apos;, () =&gt; { 
+	 *  console.log(&apos;start&apos;); 
+	 * }).on(&apos;pause&apos;, () =&gt; { 
+	 *  console.log(&apos;paused&apos;); 
+	 * });
+	 * // Start the timer so the event `start` can call your attached callback.
+	 * timer.start();
+	 * // Pause the timer so the event `pause` can call your attached callback.
+	 * timer.pause();
+	 */
+	on(pEventName, pCallback) {
+		if (typeof(pCallback) === &apos;function&apos;) {
+			if (this.acceptedEvents.includes(pEventName)) {
+				// If this event does not exist yet in the handler, then create an object for it
+				if (!this.onHandler[pEventName]) this.onHandler[pEventName] = {};
+				this.onHandler[pEventName][this.generateID()] = pCallback;
+			}
+		}
+		return this;
+	}
+	/**
+	 * 
+	 * Removes a callback from the event name specified. 
+	 * If no callback is passed then all existing callbacks are removed from the event
+	 * 
+	 * @param {string} pEventName - The event name you want to remove the callback from
+	 * @param {function} pCallback - The callback to remove from this event
+	 * @returns {this} The chronos instance
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * 
+	 * // Store a reference to the callbacks since we will need to pass them back to remove them
+	 * const startEvent = () =&gt; { 
+	 *  console.log(&apos;start&apos;); 
+	 * };
+	 * 
+	 * const pauseEvent = () =&gt; { 
+	 *  console.log(&apos;paused&apos;); 
+	 * };
+	 * 
+	 * // Attach events to the timer
+	 * timer.on(&apos;start&apos;, startEvent).on(&apos;pause&apos;, pauseEvent);
+	 * 
+	 * // Start the timer so the event `start` can call your attached callback.
+	 * timer.start();
+	 * // Pause the timer so the event `pause` can call your attached callback.
+	 * timer.pause();
+	 * 
+	 * // Remove the events
+	 * timer.off(&apos;start&apos;, startEvent);
+	 * timer.off(&apos;pause&apos;, pauseEvent);
+	 * 
+	 * // Call the events again to see that the events are no longer being listened to
+	 * timer.start();
+	 * timer.pause();
+	 * 
+	 */
+	off(pEventName, pCallback) {
+		// If the event handler has the event pEventName
+		if (this.onHandler[pEventName]) {
+			// Loop the keys in that event name object
+			for (const id of Object.keys(this.onHandler[pEventName])) {
+				// If there was no callback passed, then we will remove all callbacks from this event
+				if (!pCallback) {
+					delete this.onHandler[pEventName][id];
+					continue;
+				}
+				// Check to see if any of the id&apos;s value is equal to the callback we want to remove
+				if (this.onHandler[pEventName][id] === pCallback) {
+					// If so remove it
+					delete this.onHandler[pEventName][id];
+					// If you are removing the last property of this object, then no longer reference it as an object since it&apos;s empty
+					if (!Object.keys(this.onHandler[pEventName]).length) {
+						this.onHandler[pEventName] = null;
+					}
+					break; 
+				}
+			}	
+		}	
+		return this;
+	}
+	/**
+	 * 
+	 * Triggers the callback for pEventName
+	 * 
+	 * @private
+	 * @param {string} pEventName - The event name that will be trigged
+	 * @param {number} pDelta - The delta time between ticks (only passed when `tick` is pEventName)
+	 * @returns {this} The chronos instance
+	 */
+	trigger(pEventName, pDelta) {
+		// If the event handler has the event pEventName
+		if (this.onHandler[pEventName]) {
+			// Loop the keys in that event name object
+			for (const id of Object.keys(this.onHandler[pEventName])) {
+				// Check to see if any of the id&apos;s value is equal to a funcion (meaning its a callback)
+				if (typeof(this.onHandler[pEventName][id]) === &apos;function&apos;) {
+					// If so call it
+					// pDelta is only passed when the event is `tick`
+					this.onHandler[pEventName][id](pDelta);
+				}
+			}	
+		}
+		return this;
+	}
+	/**
+	 * 
+	 * Attaches a callback to the pMs in the timer. When this duration is reached in the timer, the callback will call
+	 * 
+	 * @param {number} pMs - The time at which to call the callback (Clamped to the duration of the timer, pMs cannot exceed the timer&apos;s duration)
+	 * @param {function} pCallback - The callback to call when the timer reaches pMs
+	 * @returns {this} The chronos instance
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Attach event to call at a certain time during the duration of this timer
+	 * timer.at(5000, () =&gt; { console.log(&apos;5000 ms into the timer!&apos;); });
+	 */
+	at(pMs, pCallback) {
+		if (typeof(pCallback) === &apos;function&apos;) {
+			if (typeof(pMs) === &apos;number&apos;) {
+				pMs = Math.round(pMs);
+				// If the callback is to happen at a time that is further than the duration, it can never call so it is not added
+				if (pMs &gt; this.duration) return this;
+				// If this event does not exist yet in the handler, then create an object for it
+				if (!this.timeHandler[pMs]) this.timeHandler[pMs] = {};
+				this.timeHandler[pMs][this.generateID()] = pCallback;
+			}
+		}
+		return this;
+	}
+	/**
+	 * Removes the provided callback attached to the time(pMs)
+	 * If no callback is passed then all existing callbacks attached to the time(pMs) will be removed
+	 * 
+	 * @param {number} pMs - The ms that has an event attached to it
+	 * @param {function} pCallback - The callback attached to pMs that will be removed
+	 * @returns {this} The chronos instance
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * // Store a reference to the callbacks since we will need to pass them back to remove them
+	 * const atCallback = () =&gt; { console.log(&apos;5000 ms into the timer!&apos;); };
+	 * 
+	 * // Attach event to call at a certain time during the duration of this timer
+	 * timer.at(5000, atCallback);
+	 * 
+	 * // Remove the callback when you no longer need/want it.
+	 * timer.removeAt(5000, atCallback);
+	 * 
+	 */
+	removeAt(pMs, pCallback) {
+		if (this.timeHandler[pMs]) {
+			for (const id of Object.keys(this.timeHandler[pMs])) {
+				// If there was no callback passed, then we will remove all callbacks from this event
+				if (!pCallback) {
+					delete this.timeHandler[pMs][id];
+					continue;
+				}
+				// Check to see if any of the id&apos;s value is equal to the callback we want to remove
+				if (this.timeHandler[pMs][id] === pCallback) {
+					// If so remove it
+					delete this.timeHandler[pMs][id];
+					// If you are removing the last property of this object, then no longer reference it as an object since it&apos;s empty
+					if (!Object.keys(this.timeHandler[pMs]).length) {
+						this.timeHandler[pMs] = null;
+					}
+					break;
+				}
+			}
+		}
+		return this;
+	}
+	/**
+	 * 
+	 * Handler for the at event. At pMs if there is a event scheduled then it will be called.
+	 * 
+	 * @private
+	 * @param {number} pMs - The time at which to call the callback
+	 */
+	atHandler(pMs) {
+		if (this.timeHandler[pMs]) {
+			for (const id in this.timeHandler[pMs]) {
+				this.timeHandler[pMs][id]();
+			}
+		}
+	}
+	/**
+	 * Attaches a callback to the timer. So that every time `pMs` goes by the callback is called.
+	 * 
+	 * @param {number} pMs - The time between each callback call 
+	 * @param {function} pCallback - The callback to call each time `pMs` goes by in the timer
+	 * @returns {this} The chronos instance
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * 
+	 * // Attach event to call each time 2500ms passes by
+	 * timer.every(2500, () =&gt; { console.log(&apos;2500ms has passed by&apos;); }));
+	 * 
+	 */
+	every(pMs, pCallback) {
+		if (typeof(pCallback) === &apos;function&apos;) {
+			if (typeof(pMs) === &apos;number&apos;) {
+				pMs = Math.max(Math.round(pMs), this.MIN_TICK_RATE);
+				// If the callback is to happen at a time that is further than the duration, it can never call so it is not added
+				if (pMs &gt; this.duration) return this;
+				// If this event does not exist yet in the handler, then create an object for it
+				if (!this.intervalHandler[pMs]) this.intervalHandler[pMs] = {};
+				this.intervalHandler[pMs][this.generateID()] = { startStamp: Date.now(), cb: pCallback };
+			}
+		}			
+		return this;
+	}
+	/**
+	 * Removes the provided callback attached to the time(pMs)
+	 * If no callback is passed then all existing callbacks attached to the time(pMs) will be removed
+	 * 
+	 * @param {number} pMs - The ms that has an event attached to it
+	 * @param {function} pCallback - The callback attached to pMs that will be removed
+	 * @returns {this} The chronos instance
+	 * @example
+	 * // Create the timer
+	 * const timer = new Chronos();
+	 * 
+	 * // Store a reference to the callbacks since we will need to pass them back to remove them
+	 * const everyCallback = () =&gt; { console.log(&apos;2500ms has passed by&apos;); };
+	 * 
+	 * // Attach event to call at a certain time during the duration of this timer
+	 * timer.every(2500, everyCallback);
+	 * 
+	 * // Remove the callback when you no longer need/want it.
+	 * timer.removeEvery(2500, everyCallback);
+	 * 
+	 */
+	removeEvery(pMs, pCallback) {
+		if (this.intervalHandler[pMs]) {
+			for (const id of Object.keys(this.intervalHandler[pMs])) {
+				// If there was no callback passed, then we will remove all callbacks from this event
+				if (!pCallback) {
+					delete this.intervalHandler[pMs][id];
+					continue;
+				}
+				// Check to see if any of the id&apos;s value is equal to the callback we want to remove
+				if (this.intervalHandler[pMs][id] === pCallback) {
+					// If so remove it
+					delete this.intervalHandler[pMs][id];
+					// If you are removing the last property of this object, then no longer reference it as an object since it&apos;s empty
+					if (!Object.keys(this.intervalHandler[pMs]).length) {
+						this.intervalHandler[pMs] = null;
+					}
+					break;
+				}
+			}
+		}
+		return this;
+	}
+	/**
+	 * Starts the timer at the specified time rather than 0
+	 * 
+	 * @private
+	 * @param {number} pStartAt - The time to start the timer at
+	 * @returns {this} The chronos instance
+	 */
+	startAt(pStartAt) {
+		if (typeof(pStartAt) === &apos;number&apos;) this.startAtHandler(pStartAt);
+		return this;
+	}
+	/**
+	 * Handler for setting the start at value, handles safety cases and defaults when unreachable cases are met
+	 * 
+	 * @private
+	 * @param {number} pStartAt - The time to start the timer at
+	 */
+	startAtHandler(pStartAt) {
+		// If the start at value is greater than or equal to the duration we set it to default, as this is impossible to reach
+		// Or if the start at value is 0, meaning the timer should start from 0
+		if (pStartAt &gt;= this.duration || pStartAt &lt;= 0) {
+			this.startMs = 0;
+		} else {
+			// Other wise the start at value is realized, but clamped to a minimum value of the tick rate
+			this.startMs = Math.max(Math.round(pStartAt), this.tickRate);
+		}
+		// In the event you start at a earlier time in the timer, then the duration needs to be shortened to account for this
+		// The duration will now be `duration - startAtValue`.
+		// If the duration is below the tick rate it will be clamped to the tick rate
+		if (this.startMs &amp;&amp; this.duration) this.duration = Math.max(this.duration - this.startMs, this.tickRate);
+	}
+	/**
+	 * Handler to be called before starting the timer, to prep the information
+	 * 
+	 * @private
+	 */
+	startHandler() {
+		const now = Date.now();
+		this.startStamp = now;
+		this.currentTick = this.getFlow() === 1 ? 0 : this.timeToTicks(this.duration);
+		this.ticking = true;
+		this.scaledTickRate = this.tickRate / this.timeScale;
+		this.timeoutId = setTimeout(this.adjuster, this.scaledTickRate);
+	}
+	/**
+	 * Handler that starts tracking the every event
+	 * 
+	 * @private
+	 */
+	startEveryHandler() {
+		for (const ms in this.intervalHandler) {
+			for (const id in this.intervalHandler[ms]) {
+				const intervalObject = this.intervalHandler[ms][id];
+				const timer = this;
+				// If this is not already preset, this means it was never set
+				// This must be a new event to track
+				if (!this.intervalHandler[ms][id].adjuster) {
+					this.intervalHandler[ms][id].adjuster = () =&gt; {
+						if (timer.isTicking()) {
+							const now = Date.now();
+							if (!intervalObject.maxCallbackCount || intervalObject.callbackCount &lt;= intervalObject.maxCallbackCount) {
+								// Call the callback because the ms interval has passed
+								intervalObject[&apos;cb&apos;]();
+								intervalObject.callbackCount++;
+								// When all events have called, it can complete
+								if (intervalObject.callbackCount === intervalObject.maxCallbackCount) {
+									timer.canFinish = true;
+									timer.eventHandler();
+									return;
+								}
+							}
+							// This is in the event the handler is being resumed, we want the latest time and not to use the previous stamp
+							if (!intervalObject.expectedStamp) intervalObject.expectedStamp = now;
+							const difference = now - intervalObject.expectedStamp;
+							intervalObject.scaledTickRate = intervalObject.tickRate / timer.timeScale;
+							intervalObject.expectedStamp += intervalObject.scaledTickRate;
+							intervalObject.adjustedTickRate = intervalObject.scaledTickRate - difference;
+							intervalObject.timeoutId = setTimeout(intervalObject.adjuster, intervalObject.adjustedTickRate);
+						}
+					}
+				}
+				const everyMs = Number(ms);
+				// As long as there is an outstanding event that needs to complete the timer cannot finish
+				this.canFinish = false;
+				intervalObject.tickRate = everyMs;
+				intervalObject.scaledTickRate = intervalObject.tickRate / this.timeScale;
+				intervalObject.callbackCount = 0;
+				intervalObject.maxCallbackCount = 0;
+				if (this.hasDuration) intervalObject.maxCallbackCount = Math.floor(this.duration / intervalObject.tickRate);
+				intervalObject.timeoutId = setTimeout(intervalObject.adjuster, intervalObject.scaledTickRate);
+			}
+		}
+	}
+	/**
+	 * Stops the handler that tracks the `every` event
+	 * 
+	 * @private
+	 */
+	stopEveryHandler() {
+		for (const ms in this.intervalHandler) {
+			for (const id in this.intervalHandler[ms]) {
+				clearTimeout(this.intervalHandler[ms][id].timeoutId);
+			}
+		}
+	}
+	/**
+	 * Pauses the handler that tracks the `every` event
+	 * 
+	 * @private
+	 */
+	pauseEveryHandler() {
+		for (const ms in this.intervalHandler) {
+			for (const id in this.intervalHandler[ms]) {
+				// Remove the timeout handler when pausing the timer
+				clearTimeout(this.intervalHandler[ms][id].timeoutId);
+				this.intervalHandler[ms][id].durationBeforeexpectedStamp = this.intervalHandler[ms][id].expectedStamp - self.now;
+			}
+		}
+	}
+	/**
+	 * Resumes the handler that tracks the `every` event
+	 * 
+	 * @private
+	 */
+	resumeEveryHandler() {
+		for (const ms in this.intervalHandler) {
+			for (const id in this.intervalHandler[ms]) {
+				// We do not know the next time at this point, so we change it to 0 and let the timer set the next time the next time it calls
+				this.intervalHandler[ms][id].expectedStamp = 0;
+				// Add the timeout handler back when resuming the timer
+				this.intervalHandler[ms][id].timeoutId = setTimeout(this.intervalHandler[ms][id].adjuster, this.intervalHandler[ms][id].durationBeforeexpectedStamp);
+			}
+		}
+	}
+	/**
+	 * Event handler that checks if the ticker is done
+	 * 
+	 * @private
+	 */
+	eventHandler() {
+		if (this.hasDuration) {
+			// If time is going backwards, then we rollback when the duration is less than or equal to 0
+			if (this.flow === -1) {
+				if (this.currentTick &lt;= 0) {
+					if (this.canFinish) this.rollback();
+				}
+			// Otherwise time is going forwards, so we complete the timer
+			} else {
+				if (this.getMs() &gt;= this.duration) {
+					if (this.canFinish) this.complete();
+				}
+			}
+		}
+	}
+	/**
+	 * Tick event that is called to update the timer&apos;s states.
+	 * 
+	 * @private
+	 * @param {number} pDelta - The delta time between the last tick
+	 */
+	tick(pDelta) {
+		this.currentTick += (1 * this.flow) * this.timeScale;
+		this.trigger(&apos;tick&apos;, pDelta);
+		this.atHandler(this.getMs());
+	}
+	/**
+	 * Reverse the flow of the timer
+	 * @returns {this} The chronos instance
+	 */
+	reverse() {
+		this.flow *= -1;
+		return this;
+	}
+	/**
+	 * Starts the timer.
+	 * This also resets the timer if it was previously running
+	 * @returns {this} The chronos instance
+	 */	
+	start() {
+		this.reset(true);
+		this.trigger(&apos;start&apos;);
+		this.startHandler();
+		this.startEveryHandler();
+		return this;
+	}
+	/**
+	 * Stops the timer.
+	 * This also resets the timer
+	 * @returns {this} The chronos instance
+	 */	
+	stop() {
+		if (this.isTicking()) {
+			this.stopEveryHandler();
+			this.reset(true);
+			this.trigger(&apos;stop&apos;);
+		}
+		return this;
+	}
+	/**
+	 * Pauses the timer if it is running.
+	 * @returns {this} The chronos instance
+	 */	
+	pause() {
+		if (this.isTicking() &amp;&amp; !this.isPaused()) {
+			this.pauseEveryHandler();
+			this.paused = true;
+			this.trigger(&apos;pause&apos;);
+		}
+		return this;
+	}
+	/**
+	 * Resumes the timer if it is paused.
+	 * @returns {this} The chronos instance
+	 */	
+	resume() {
+		if (this.isTicking() &amp;&amp; this.isPaused()) {
+			this.resumeEveryHandler();
+			this.paused = false;
+			this.lastStamp = 0;
+			this.expectedStamp = 0;
+			this.trigger(&apos;resume&apos;);
+		}
+		return this;
+	}
+	/**
+	 * Resets the timer
+	 * 
+	 * @private
+	 * @param {boolean} pBypassEvent - Whether or not to trigger the reset event
+	 * @returns {this} The chronos instance
+	 */	
+	reset(pBypassEvent) {
+		this.currentTick = 0;
+		this.ticking = false;
+		this.paused = false;
+		this.lastStamp = 0;
+		this.startStamp = 0;
+		this.canFinish = true;
+		clearInterval(this.timeoutId);
+		// This was called via the API and not internally
+		if (!pBypassEvent) this.trigger(&apos;reset&apos;);
+		return this;
+	}
+	/**
+	 * Destroys this timer
+	 * All references must be cleared on the user&apos;s side as well so it can be garbage collected
+	 * 
+	 * @returns {this} The chronos instance
+	 * 
+	*/
+	destroy() {
+		// Remove the interval timer
+		clearTimeout(this.timeoutId);
+		this.trigger(&apos;destroy&apos;);
+		for (var key in this) {
+			if (this.hasOwnProperty(key)) {
+				delete this[key];
+			}
+		}
+		return this;
+	}
+	/**
+	 * Increases the timer&apos;s current time by pTime
+	 * If the time is increased past the timer&apos;s duration and the timer is set to loop it will overflow into the next loop of the timer.
+	 * If it is not set to loop, it will end the timer.
+	 * 
+	 * @param {number} pTime - The time in ms of which to increase this timer&apos;s current time
+	 * @returns {this} The chronos instance
+	 */
+	increase(pTime) {
+		if (typeof(pTime) === &apos;number&apos;) {
+			if (this.isTicking()) {
+				let newTime = this.getMs() + pTime;
+				if (this.loop &amp;&amp; this.hasDuration) {
+					while (newTime &gt; this.duration) {
+						// The timer has completed a duration, so fire off events
+						this.complete();
+						// The remaining time that can&apos;t fit into the duration of the timer
+						const spillage = newTime - this.duration;
+						// Set the new time to the spillage amount
+						newTime = spillage;
+						// If the newTime no longer spills past the duration, this means we can finally get our tick value
+						if (newTime &lt;= this.duration) this.currentTick = this.timeToTicks(newTime);
+					}
+				} else {
+					// If the newTime is greater or equal to the duration of this timer then the tick is reset to 0
+					if (newTime &gt;= this.duration) {
+						this.complete();
+					} else {
+						this.currentTick = this.timeToTicks(newTime);
+					}
+				}
+			}
+			return this;
+		}
+	}
+	/**
+	 * Decreases the timer&apos;s current time by pTime
+	 * If the time is decreased past 0 and the timer is set to loop it will decrease into the previous loop.
+	 * 
+	 * @param {number} pTime - The time in ms of which to increase this timer&apos;s current time
+	 * @returns {this} The chronos instance
+	 */
+	decrease(pTime) {
+		if (typeof(pTime) === &apos;number&apos;) {
+			if (this.isTicking()) {
+				let newTime = this.getMs() - pTime;
+				if (this.loop &amp;&amp; this.hasDuration) {
+					while (newTime &lt; 0) {
+						// The timer has rolledback a duration, so fire off events
+						this.rollback();
+						// The remaining time that can&apos;t fit into the duration of the timer
+						const spillage = newTime + this.duration;
+						// Set the new time to the spillage amount
+						newTime = spillage;
+						// If the newTime no longer spills under 0, this means we can finally get our tick value
+						if (newTime &gt;= 0) this.currentTick = this.timeToTicks(newTime);
+					}
+				} else {
+					// If the newTime is less or equal to 0 then the tick is reset to the timers duration due to it being bumped back a iteration
+					if (newTime &lt;= 0) {
+						this.rollback();
+					} else {
+						this.currentTick = this.timeToTicks(newTime);
+					}
+				}
+			}
+			return this;
+		}
+	}
+	/**
+	 * Forcibly complete the timer 
+	 * 
+	 * @returns {this} The chronos instance
+	 */
+	complete() {
+		if (this.isTicking() &amp;&amp; this.hasDuration) {
+			if (!this.loop) this.reset(true);
+			this.completionCount++;
+			this.trigger(&apos;complete&apos;);
+			if (this.loop) this.start();
+		}
+		return this;
+	}
+	/**
+	 * Forcibly rollback the timer (opposite of complete)
+	 * 
+	 * @returns {this} The chronos instance
+	 */
+	rollback() {
+		if (this.isTicking() &amp;&amp; this.hasDuration) {
+			if (!this.loop) this.reset(true);
+			this.completionCount--;
+			this.trigger(&apos;rollback&apos;);
+			if (this.loop) this.start();
+		}
+		return this;
+	}
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
