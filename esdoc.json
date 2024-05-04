@@ -3,7 +3,7 @@
     "destination": "./docs",
     "includes": ["\\.mjs$"],
     "index": "./README.md",
-    "excludes": ["\\.min.mjs$"],
+    "excludes": ["\\.min.mjs$", "rollup.config.mjs"],
     "plugins": [
     {
       "name": "esdoc-standard-plugin",
