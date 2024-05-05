@@ -4,9 +4,6 @@
 [submodule "src/submodules/Tween"]
 	path = src/submodules/Tween
 	url = https://github.com/EvitcaStudio/Tween.git
-[submodule "src/submodules/Chronos"]
-	path = src/submodules/Chronos
-	url = https://github.com/EvitcaStudio/Chronos.git
 [submodule "src/submodules/Resonance"]
 	path = src/submodules/Resonance
 	url = https://github.com/EvitcaStudio/Resonance.git
@@ -19,6 +16,3 @@
 [submodule "src/submodules/Pulse"]
 	path = src/submodules/Pulse
 	url = https://github.com/EvitcaStudio/Pulse.git
-[submodule "src/submodules/Group"]
-	path = src/submodules/Group
-	url = https://github.com/EvitcaStudio/Group.git
