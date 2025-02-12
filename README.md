@@ -14,7 +14,6 @@ import { Core } from './core.mjs';
 
 ```js
 <script src="core.js"></script>;
-// ...
 window.CoreBundle.Core;
 ```
 
