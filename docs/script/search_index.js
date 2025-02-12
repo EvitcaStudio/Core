@@ -174,10 +174,16 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/submodules/collector/src/collector.mjs~collectorsingleton#isincollection",
-    "class/src/submodules/Collector/src/collector.mjs~CollectorSingleton.html#instance-method-isInCollection",
-    "src/submodules/Collector/src/collector.mjs~CollectorSingleton#isInCollection",
+    "src/submodules/collector/src/collector.mjs~collectorsingleton#grab",
+    "class/src/submodules/Collector/src/collector.mjs~CollectorSingleton.html#instance-method-grab",
+    "src/submodules/Collector/src/collector.mjs~CollectorSingleton#grab",
     "method"
+  ],
+  [
+    "src/submodules/collector/src/collector.mjs~collectorsingleton#isincollection",
+    "class/src/submodules/Collector/src/collector.mjs~CollectorSingleton.html#instance-member-isInCollection",
+    "src/submodules/Collector/src/collector.mjs~CollectorSingleton#isInCollection",
+    "member"
   ],
   [
     "src/submodules/collector/src/collector.mjs~collectorsingleton#logger",

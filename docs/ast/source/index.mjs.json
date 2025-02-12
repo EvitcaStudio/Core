@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 3078,
+  "end": 2994,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 3078,
+    "end": 2994,
     "loc": {
       "start": {
         "line": 1,
@@ -116,8 +116,8 @@
       },
       {
         "type": "ImportDeclaration",
-        "start": 59,
-        "end": 128,
+        "start": 58,
+        "end": 127,
         "loc": {
           "start": {
             "line": 2,
@@ -131,8 +131,8 @@
         "specifiers": [
           {
             "type": "ImportSpecifier",
-            "start": 68,
-            "end": 77,
+            "start": 67,
+            "end": 76,
             "loc": {
               "start": {
                 "line": 2,
@@ -145,8 +145,8 @@
             },
             "imported": {
               "type": "Identifier",
-              "start": 68,
-              "end": 77,
+              "start": 67,
+              "end": 76,
               "loc": {
                 "start": {
                   "line": 2,
@@ -162,8 +162,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 68,
-              "end": 77,
+              "start": 67,
+              "end": 76,
               "loc": {
                 "start": {
                   "line": 2,
@@ -181,8 +181,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 85,
-          "end": 127,
+          "start": 84,
+          "end": 126,
           "loc": {
             "start": {
               "line": 2,
@@ -202,8 +202,8 @@
       },
       {
         "type": "ImportDeclaration",
-        "start": 130,
-        "end": 199,
+        "start": 128,
+        "end": 197,
         "loc": {
           "start": {
             "line": 3,
@@ -217,8 +217,8 @@
         "specifiers": [
           {
             "type": "ImportSpecifier",
-            "start": 139,
-            "end": 148,
+            "start": 137,
+            "end": 146,
             "loc": {
               "start": {
                 "line": 3,
@@ -231,8 +231,8 @@
             },
             "imported": {
               "type": "Identifier",
-              "start": 139,
-              "end": 148,
+              "start": 137,
+              "end": 146,
               "loc": {
                 "start": {
                   "line": 3,
@@ -248,8 +248,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 139,
-              "end": 148,
+              "start": 137,
+              "end": 146,
               "loc": {
                 "start": {
                   "line": 3,
@@ -267,8 +267,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 156,
-          "end": 198,
+          "start": 154,
+          "end": 196,
           "loc": {
             "start": {
               "line": 3,
@@ -288,8 +288,8 @@
       },
       {
         "type": "ImportDeclaration",
-        "start": 201,
-        "end": 258,
+        "start": 198,
+        "end": 255,
         "loc": {
           "start": {
             "line": 4,
@@ -303,8 +303,8 @@
         "specifiers": [
           {
             "type": "ImportSpecifier",
-            "start": 210,
-            "end": 215,
+            "start": 207,
+            "end": 212,
             "loc": {
               "start": {
                 "line": 4,
@@ -317,8 +317,8 @@
             },
             "imported": {
               "type": "Identifier",
-              "start": 210,
-              "end": 215,
+              "start": 207,
+              "end": 212,
               "loc": {
                 "start": {
                   "line": 4,
@@ -334,8 +334,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 210,
-              "end": 215,
+              "start": 207,
+              "end": 212,
               "loc": {
                 "start": {
                   "line": 4,
@@ -353,8 +353,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 223,
-          "end": 257,
+          "start": 220,
+          "end": 254,
           "loc": {
             "start": {
               "line": 4,
@@ -374,8 +374,8 @@
       },
       {
         "type": "ImportDeclaration",
-        "start": 260,
-        "end": 346,
+        "start": 256,
+        "end": 342,
         "loc": {
           "start": {
             "line": 5,
@@ -389,8 +389,8 @@
         "specifiers": [
           {
             "type": "ImportSpecifier",
-            "start": 269,
-            "end": 281,
+            "start": 265,
+            "end": 277,
             "loc": {
               "start": {
                 "line": 5,
@@ -403,8 +403,8 @@
             },
             "imported": {
               "type": "Identifier",
-              "start": 269,
-              "end": 281,
+              "start": 265,
+              "end": 277,
               "loc": {
                 "start": {
                   "line": 5,
@@ -420,8 +420,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 269,
-              "end": 281,
+              "start": 265,
+              "end": 277,
               "loc": {
                 "start": {
                   "line": 5,
@@ -438,8 +438,8 @@
           },
           {
             "type": "ImportSpecifier",
-            "start": 283,
-            "end": 288,
+            "start": 279,
+            "end": 284,
             "loc": {
               "start": {
                 "line": 5,
@@ -452,8 +452,8 @@
             },
             "imported": {
               "type": "Identifier",
-              "start": 283,
-              "end": 288,
+              "start": 279,
+              "end": 284,
               "loc": {
                 "start": {
                   "line": 5,
@@ -469,8 +469,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 283,
-              "end": 288,
+              "start": 279,
+              "end": 284,
               "loc": {
                 "start": {
                   "line": 5,
@@ -488,8 +488,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 296,
-          "end": 345,
+          "start": 292,
+          "end": 341,
           "loc": {
             "start": {
               "line": 5,
@@ -509,8 +509,8 @@
       },
       {
         "type": "ImportDeclaration",
-        "start": 348,
-        "end": 405,
+        "start": 343,
+        "end": 400,
         "loc": {
           "start": {
             "line": 6,
@@ -524,8 +524,8 @@
         "specifiers": [
           {
             "type": "ImportSpecifier",
-            "start": 357,
-            "end": 362,
+            "start": 352,
+            "end": 357,
             "loc": {
               "start": {
                 "line": 6,
@@ -538,8 +538,8 @@
             },
             "imported": {
               "type": "Identifier",
-              "start": 357,
-              "end": 362,
+              "start": 352,
+              "end": 357,
               "loc": {
                 "start": {
                   "line": 6,
@@ -555,8 +555,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 357,
-              "end": 362,
+              "start": 352,
+              "end": 357,
               "loc": {
                 "start": {
                   "line": 6,
@@ -574,8 +574,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 370,
-          "end": 404,
+          "start": 365,
+          "end": 399,
           "loc": {
             "start": {
               "line": 6,
@@ -595,8 +595,8 @@
       },
       {
         "type": "Identifier",
-        "start": 409,
-        "end": 1867,
+        "start": 402,
+        "end": 1820,
         "loc": {
           "start": {
             "line": 8,
@@ -609,8 +609,8 @@
         },
         "id": {
           "type": "Identifier",
-          "start": 415,
-          "end": 425,
+          "start": 408,
+          "end": 418,
           "loc": {
             "start": {
               "line": 8,
@@ -627,8 +627,8 @@
         "superClass": null,
         "body": {
           "type": "ClassBody",
-          "start": 426,
-          "end": 1867,
+          "start": 419,
+          "end": 1820,
           "loc": {
             "start": {
               "line": 8,
@@ -642,8 +642,8 @@
           "body": [
             {
               "type": "ClassProperty",
-              "start": 717,
-              "end": 731,
+              "start": 705,
+              "end": 719,
               "loc": {
                 "start": {
                   "line": 13,
@@ -658,8 +658,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 717,
-                "end": 722,
+                "start": 705,
+                "end": 710,
                 "loc": {
                   "start": {
                     "line": 13,
@@ -676,8 +676,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 725,
-                "end": 730,
+                "start": 713,
+                "end": 718,
                 "loc": {
                   "start": {
                     "line": 13,
@@ -694,9 +694,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\r\n     * @site https://github.com/EvitcaStudio/Tween\r\n     ",
-                  "start": 433,
-                  "end": 711,
+                  "value": "*\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\n     * @site https://github.com/EvitcaStudio/Tween\n     ",
+                  "start": 425,
+                  "end": 700,
                   "loc": {
                     "start": {
                       "line": 9,
@@ -712,9 +712,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A class representing a state machine manager.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                  "start": 737,
-                  "end": 862,
+                  "value": "*\n     * A class representing a state machine manager.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                  "start": 724,
+                  "end": 846,
                   "loc": {
                     "start": {
                       "line": 14,
@@ -730,8 +730,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 868,
-              "end": 896,
+              "start": 851,
+              "end": 879,
               "loc": {
                 "start": {
                   "line": 18,
@@ -746,8 +746,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 868,
-                "end": 880,
+                "start": 851,
+                "end": 863,
                 "loc": {
                   "start": {
                     "line": 18,
@@ -764,8 +764,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 883,
-                "end": 895,
+                "start": 866,
+                "end": 878,
                 "loc": {
                   "start": {
                     "line": 18,
@@ -782,9 +782,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A class representing a state machine manager.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                  "start": 737,
-                  "end": 862,
+                  "value": "*\n     * A class representing a state machine manager.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                  "start": 724,
+                  "end": 846,
                   "loc": {
                     "start": {
                       "line": 14,
@@ -800,9 +800,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A class representing a state.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                  "start": 902,
-                  "end": 1011,
+                  "value": "*\n     * A class representing a state.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                  "start": 884,
+                  "end": 990,
                   "loc": {
                     "start": {
                       "line": 19,
@@ -818,8 +818,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 1017,
-              "end": 1031,
+              "start": 995,
+              "end": 1009,
               "loc": {
                 "start": {
                   "line": 23,
@@ -834,8 +834,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 1017,
-                "end": 1022,
+                "start": 995,
+                "end": 1000,
                 "loc": {
                   "start": {
                     "line": 23,
@@ -852,8 +852,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 1025,
-                "end": 1030,
+                "start": 1003,
+                "end": 1008,
                 "loc": {
                   "start": {
                     "line": 23,
@@ -870,9 +870,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A class representing a state.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                  "start": 902,
-                  "end": 1011,
+                  "value": "*\n     * A class representing a state.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                  "start": 884,
+                  "end": 990,
                   "loc": {
                     "start": {
                       "line": 19,
@@ -888,9 +888,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A plugin that will easily allow you to play sounds and control them.\r\n     * @site https://github.com/EvitcaStudio/Resonance\r\n     ",
-                  "start": 1037,
-                  "end": 1182,
+                  "value": "*\n     * A plugin that will easily allow you to play sounds and control them.\n     * @site https://github.com/EvitcaStudio/Resonance\n     ",
+                  "start": 1014,
+                  "end": 1156,
                   "loc": {
                     "start": {
                       "line": 24,
@@ -906,8 +906,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 1188,
-              "end": 1210,
+              "start": 1161,
+              "end": 1183,
               "loc": {
                 "start": {
                   "line": 28,
@@ -922,8 +922,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 1188,
-                "end": 1197,
+                "start": 1161,
+                "end": 1170,
                 "loc": {
                   "start": {
                     "line": 28,
@@ -940,8 +940,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 1200,
-                "end": 1209,
+                "start": 1173,
+                "end": 1182,
                 "loc": {
                   "start": {
                     "line": 28,
@@ -958,9 +958,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A plugin that will easily allow you to play sounds and control them.\r\n     * @site https://github.com/EvitcaStudio/Resonance\r\n     ",
-                  "start": 1037,
-                  "end": 1182,
+                  "value": "*\n     * A plugin that will easily allow you to play sounds and control them.\n     * @site https://github.com/EvitcaStudio/Resonance\n     ",
+                  "start": 1014,
+                  "end": 1156,
                   "loc": {
                     "start": {
                       "line": 24,
@@ -976,9 +976,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\r\n     * @site https://github.com/EvitcaStudio/Collector\r\n     ",
-                  "start": 1216,
-                  "end": 1403,
+                  "value": "*\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\n     * @site https://github.com/EvitcaStudio/Collector\n     ",
+                  "start": 1188,
+                  "end": 1372,
                   "loc": {
                     "start": {
                       "line": 29,
@@ -994,8 +994,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 1409,
-              "end": 1431,
+              "start": 1377,
+              "end": 1399,
               "loc": {
                 "start": {
                   "line": 33,
@@ -1010,8 +1010,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 1409,
-                "end": 1418,
+                "start": 1377,
+                "end": 1386,
                 "loc": {
                   "start": {
                     "line": 33,
@@ -1028,8 +1028,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 1421,
-                "end": 1430,
+                "start": 1389,
+                "end": 1398,
                 "loc": {
                   "start": {
                     "line": 33,
@@ -1046,9 +1046,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\r\n     * @site https://github.com/EvitcaStudio/Collector\r\n     ",
-                  "start": 1216,
-                  "end": 1403,
+                  "value": "*\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\n     * @site https://github.com/EvitcaStudio/Collector\n     ",
+                  "start": 1188,
+                  "end": 1372,
                   "loc": {
                     "start": {
                       "line": 29,
@@ -1064,9 +1064,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A small plugin full of useful things.\r\n     * @site https://github.com/EvitcaStudio/Utils\r\n     ",
-                  "start": 1437,
-                  "end": 1547,
+                  "value": "*\n     * A small plugin full of useful things.\n     * @site https://github.com/EvitcaStudio/Utils\n     ",
+                  "start": 1404,
+                  "end": 1511,
                   "loc": {
                     "start": {
                       "line": 34,
@@ -1082,8 +1082,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 1553,
-              "end": 1567,
+              "start": 1516,
+              "end": 1530,
               "loc": {
                 "start": {
                   "line": 38,
@@ -1098,8 +1098,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 1553,
-                "end": 1558,
+                "start": 1516,
+                "end": 1521,
                 "loc": {
                   "start": {
                     "line": 38,
@@ -1116,8 +1116,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 1561,
-                "end": 1566,
+                "start": 1524,
+                "end": 1529,
                 "loc": {
                   "start": {
                     "line": 38,
@@ -1134,9 +1134,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A small plugin full of useful things.\r\n     * @site https://github.com/EvitcaStudio/Utils\r\n     ",
-                  "start": 1437,
-                  "end": 1547,
+                  "value": "*\n     * A small plugin full of useful things.\n     * @site https://github.com/EvitcaStudio/Utils\n     ",
+                  "start": 1404,
+                  "end": 1511,
                   "loc": {
                     "start": {
                       "line": 34,
@@ -1152,9 +1152,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\r\n     * @site https://github.com/EvitcaStudio/Pulse\r\n     ",
-                  "start": 1573,
-                  "end": 1754,
+                  "value": "*\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\n     * @site https://github.com/EvitcaStudio/Pulse\n     ",
+                  "start": 1535,
+                  "end": 1713,
                   "loc": {
                     "start": {
                       "line": 39,
@@ -1170,8 +1170,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 1760,
-              "end": 1774,
+              "start": 1718,
+              "end": 1732,
               "loc": {
                 "start": {
                   "line": 43,
@@ -1186,8 +1186,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 1760,
-                "end": 1765,
+                "start": 1718,
+                "end": 1723,
                 "loc": {
                   "start": {
                     "line": 43,
@@ -1204,8 +1204,8 @@
               },
               "value": {
                 "type": "Identifier",
-                "start": 1768,
-                "end": 1773,
+                "start": 1726,
+                "end": 1731,
                 "loc": {
                   "start": {
                     "line": 43,
@@ -1222,9 +1222,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\r\n     * @site https://github.com/EvitcaStudio/Pulse\r\n     ",
-                  "start": 1573,
-                  "end": 1754,
+                  "value": "*\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\n     * @site https://github.com/EvitcaStudio/Pulse\n     ",
+                  "start": 1535,
+                  "end": 1713,
                   "loc": {
                     "start": {
                       "line": 39,
@@ -1240,9 +1240,9 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * The version of the module.\r\n     ",
-                  "start": 1780,
-                  "end": 1827,
+                  "value": "*\n     * The version of the module.\n     ",
+                  "start": 1737,
+                  "end": 1782,
                   "loc": {
                     "start": {
                       "line": 44,
@@ -1258,8 +1258,8 @@
             },
             {
               "type": "ClassProperty",
-              "start": 1833,
-              "end": 1864,
+              "start": 1787,
+              "end": 1818,
               "loc": {
                 "start": {
                   "line": 47,
@@ -1274,8 +1274,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 1833,
-                "end": 1840,
+                "start": 1787,
+                "end": 1794,
                 "loc": {
                   "start": {
                     "line": 47,
@@ -1292,8 +1292,8 @@
               },
               "value": {
                 "type": "StringLiteral",
-                "start": 1843,
-                "end": 1863,
+                "start": 1797,
+                "end": 1817,
                 "loc": {
                   "start": {
                     "line": 47,
@@ -1313,9 +1313,9 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "*\r\n     * The version of the module.\r\n     ",
-                  "start": 1780,
-                  "end": 1827,
+                  "value": "*\n     * The version of the module.\n     ",
+                  "start": 1737,
+                  "end": 1782,
                   "loc": {
                     "start": {
                       "line": 44,
@@ -1337,8 +1337,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 1871,
-        "end": 1908,
+        "start": 1822,
+        "end": 1859,
         "loc": {
           "start": {
             "line": 50,
@@ -1353,8 +1353,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 1878,
-          "end": 1908,
+          "start": 1829,
+          "end": 1859,
           "loc": {
             "start": {
               "line": 50,
@@ -1368,8 +1368,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 1884,
-              "end": 1907,
+              "start": 1835,
+              "end": 1858,
               "loc": {
                 "start": {
                   "line": 50,
@@ -1382,8 +1382,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 1884,
-                "end": 1888,
+                "start": 1835,
+                "end": 1839,
                 "loc": {
                   "start": {
                     "line": 50,
@@ -1399,8 +1399,8 @@
               },
               "init": {
                 "type": "NewExpression",
-                "start": 1891,
-                "end": 1907,
+                "start": 1842,
+                "end": 1858,
                 "loc": {
                   "start": {
                     "line": 50,
@@ -1413,8 +1413,8 @@
                 },
                 "callee": {
                   "type": "Identifier",
-                  "start": 1895,
-                  "end": 1905,
+                  "start": 1846,
+                  "end": 1856,
                   "loc": {
                     "start": {
                       "line": 50,
@@ -1436,9 +1436,9 @@
           "trailingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\r\n * @ignore\r\n ",
-              "start": 1910,
-              "end": 1930,
+              "value": "*\n * @ignore\n ",
+              "start": 1860,
+              "end": 1878,
               "loc": {
                 "start": {
                   "line": 51,
@@ -1456,9 +1456,9 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 1910,
-            "end": 1930,
+            "value": "*\n * @ignore\n ",
+            "start": 1860,
+            "end": 1878,
             "loc": {
               "start": {
                 "line": 51,
@@ -1474,8 +1474,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 1932,
-        "end": 1975,
+        "start": 1879,
+        "end": 1922,
         "loc": {
           "start": {
             "line": 54,
@@ -1489,8 +1489,8 @@
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1938,
-            "end": 1974,
+            "start": 1885,
+            "end": 1921,
             "loc": {
               "start": {
                 "line": 54,
@@ -1503,8 +1503,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 1938,
-              "end": 1948,
+              "start": 1885,
+              "end": 1895,
               "loc": {
                 "start": {
                   "line": 54,
@@ -1521,8 +1521,8 @@
             },
             "init": {
               "type": "TemplateLiteral",
-              "start": 1951,
-              "end": 1974,
+              "start": 1898,
+              "end": 1921,
               "loc": {
                 "start": {
                   "line": 54,
@@ -1536,8 +1536,8 @@
               "expressions": [
                 {
                   "type": "MemberExpression",
-                  "start": 1960,
-                  "end": 1972,
+                  "start": 1907,
+                  "end": 1919,
                   "loc": {
                     "start": {
                       "line": 54,
@@ -1550,8 +1550,8 @@
                   },
                   "object": {
                     "type": "Identifier",
-                    "start": 1960,
-                    "end": 1964,
+                    "start": 1907,
+                    "end": 1911,
                     "loc": {
                       "start": {
                         "line": 54,
@@ -1567,8 +1567,8 @@
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 1965,
-                    "end": 1972,
+                    "start": 1912,
+                    "end": 1919,
                     "loc": {
                       "start": {
                         "line": 54,
@@ -1588,8 +1588,8 @@
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 1952,
-                  "end": 1958,
+                  "start": 1899,
+                  "end": 1905,
                   "loc": {
                     "start": {
                       "line": 54,
@@ -1608,8 +1608,8 @@
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 1973,
-                  "end": 1973,
+                  "start": 1920,
+                  "end": 1920,
                   "loc": {
                     "start": {
                       "line": 54,
@@ -1635,9 +1635,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 1910,
-            "end": 1930,
+            "value": "*\n * @ignore\n ",
+            "start": 1860,
+            "end": 1878,
             "loc": {
               "start": {
                 "line": 51,
@@ -1653,9 +1653,9 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 1977,
-            "end": 1997,
+            "value": "*\n * @ignore\n ",
+            "start": 1923,
+            "end": 1941,
             "loc": {
               "start": {
                 "line": 55,
@@ -1671,8 +1671,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 1999,
-        "end": 2033,
+        "start": 1942,
+        "end": 1976,
         "loc": {
           "start": {
             "line": 58,
@@ -1686,8 +1686,8 @@
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2005,
-            "end": 2032,
+            "start": 1948,
+            "end": 1975,
             "loc": {
               "start": {
                 "line": 58,
@@ -1700,8 +1700,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 2005,
-              "end": 2020,
+              "start": 1948,
+              "end": 1963,
               "loc": {
                 "start": {
                   "line": 58,
@@ -1718,8 +1718,8 @@
             },
             "init": {
               "type": "StringLiteral",
-              "start": 2023,
-              "end": 2032,
+              "start": 1966,
+              "end": 1975,
               "loc": {
                 "start": {
                   "line": 58,
@@ -1743,9 +1743,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 1977,
-            "end": 1997,
+            "value": "*\n * @ignore\n ",
+            "start": 1923,
+            "end": 1941,
             "loc": {
               "start": {
                 "line": 55,
@@ -1762,8 +1762,8 @@
           {
             "type": "CommentLine",
             "value": " Dark navy blue",
-            "start": 2034,
-            "end": 2051,
+            "start": 1977,
+            "end": 1994,
             "loc": {
               "start": {
                 "line": 58,
@@ -1777,9 +1777,9 @@
           },
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2053,
-            "end": 2073,
+            "value": "*\n * @ignore\n ",
+            "start": 1995,
+            "end": 2013,
             "loc": {
               "start": {
                 "line": 59,
@@ -1795,8 +1795,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 2075,
-        "end": 2096,
+        "start": 2014,
+        "end": 2035,
         "loc": {
           "start": {
             "line": 62,
@@ -1810,8 +1810,8 @@
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2081,
-            "end": 2095,
+            "start": 2020,
+            "end": 2034,
             "loc": {
               "start": {
                 "line": 62,
@@ -1824,8 +1824,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 2081,
-              "end": 2086,
+              "start": 2020,
+              "end": 2025,
               "loc": {
                 "start": {
                   "line": 62,
@@ -1842,8 +1842,8 @@
             },
             "init": {
               "type": "StringLiteral",
-              "start": 2089,
-              "end": 2095,
+              "start": 2028,
+              "end": 2034,
               "loc": {
                 "start": {
                   "line": 62,
@@ -1868,8 +1868,8 @@
           {
             "type": "CommentLine",
             "value": " Dark navy blue",
-            "start": 2034,
-            "end": 2051,
+            "start": 1977,
+            "end": 1994,
             "loc": {
               "start": {
                 "line": 58,
@@ -1883,9 +1883,9 @@
           },
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2053,
-            "end": 2073,
+            "value": "*\n * @ignore\n ",
+            "start": 1995,
+            "end": 2013,
             "loc": {
               "start": {
                 "line": 59,
@@ -1902,8 +1902,8 @@
           {
             "type": "CommentLine",
             "value": " White text color",
-            "start": 2097,
-            "end": 2116,
+            "start": 2036,
+            "end": 2055,
             "loc": {
               "start": {
                 "line": 62,
@@ -1917,9 +1917,9 @@
           },
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2118,
-            "end": 2138,
+            "value": "*\n * @ignore\n ",
+            "start": 2056,
+            "end": 2074,
             "loc": {
               "start": {
                 "line": 63,
@@ -1935,8 +1935,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 2140,
-        "end": 2179,
+        "start": 2075,
+        "end": 2114,
         "loc": {
           "start": {
             "line": 66,
@@ -1950,8 +1950,8 @@
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2146,
-            "end": 2178,
+            "start": 2081,
+            "end": 2113,
             "loc": {
               "start": {
                 "line": 66,
@@ -1964,8 +1964,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 2146,
-              "end": 2156,
+              "start": 2081,
+              "end": 2091,
               "loc": {
                 "start": {
                   "line": 66,
@@ -1982,8 +1982,8 @@
             },
             "init": {
               "type": "StringLiteral",
-              "start": 2159,
-              "end": 2178,
+              "start": 2094,
+              "end": 2113,
               "loc": {
                 "start": {
                   "line": 66,
@@ -2008,8 +2008,8 @@
           {
             "type": "CommentLine",
             "value": " White text color",
-            "start": 2097,
-            "end": 2116,
+            "start": 2036,
+            "end": 2055,
             "loc": {
               "start": {
                 "line": 62,
@@ -2023,9 +2023,9 @@
           },
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2118,
-            "end": 2138,
+            "value": "*\n * @ignore\n ",
+            "start": 2056,
+            "end": 2074,
             "loc": {
               "start": {
                 "line": 63,
@@ -2041,9 +2041,9 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2181,
-            "end": 2201,
+            "value": "*\n * @ignore\n ",
+            "start": 2115,
+            "end": 2133,
             "loc": {
               "start": {
                 "line": 67,
@@ -2059,8 +2059,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 2203,
-        "end": 2242,
+        "start": 2134,
+        "end": 2173,
         "loc": {
           "start": {
             "line": 70,
@@ -2074,8 +2074,8 @@
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2209,
-            "end": 2241,
+            "start": 2140,
+            "end": 2172,
             "loc": {
               "start": {
                 "line": 70,
@@ -2088,8 +2088,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 2209,
-              "end": 2219,
+              "start": 2140,
+              "end": 2150,
               "loc": {
                 "start": {
                   "line": 70,
@@ -2106,8 +2106,8 @@
             },
             "init": {
               "type": "StringLiteral",
-              "start": 2222,
-              "end": 2241,
+              "start": 2153,
+              "end": 2172,
               "loc": {
                 "start": {
                   "line": 70,
@@ -2131,9 +2131,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2181,
-            "end": 2201,
+            "value": "*\n * @ignore\n ",
+            "start": 2115,
+            "end": 2133,
             "loc": {
               "start": {
                 "line": 67,
@@ -2149,9 +2149,9 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2244,
-            "end": 2264,
+            "value": "*\n * @ignore\n ",
+            "start": 2174,
+            "end": 2192,
             "loc": {
               "start": {
                 "line": 71,
@@ -2167,8 +2167,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 2266,
-        "end": 2993,
+        "start": 2193,
+        "end": 2911,
         "loc": {
           "start": {
             "line": 74,
@@ -2182,8 +2182,8 @@
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2272,
-            "end": 2992,
+            "start": 2199,
+            "end": 2910,
             "loc": {
               "start": {
                 "line": 74,
@@ -2196,8 +2196,8 @@
             },
             "id": {
               "type": "Identifier",
-              "start": 2272,
-              "end": 2280,
+              "start": 2199,
+              "end": 2207,
               "loc": {
                 "start": {
                   "line": 74,
@@ -2214,8 +2214,8 @@
             },
             "init": {
               "type": "TemplateLiteral",
-              "start": 2283,
-              "end": 2992,
+              "start": 2210,
+              "end": 2910,
               "loc": {
                 "start": {
                   "line": 74,
@@ -2229,8 +2229,8 @@
               "expressions": [
                 {
                   "type": "Identifier",
-                  "start": 2308,
-                  "end": 2323,
+                  "start": 2234,
+                  "end": 2249,
                   "loc": {
                     "start": {
                       "line": 75,
@@ -2246,8 +2246,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 2338,
-                  "end": 2343,
+                  "start": 2263,
+                  "end": 2268,
                   "loc": {
                     "start": {
                       "line": 76,
@@ -2263,8 +2263,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 2386,
-                  "end": 2396,
+                  "start": 2309,
+                  "end": 2319,
                   "loc": {
                     "start": {
                       "line": 78,
@@ -2280,8 +2280,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 2462,
-                  "end": 2472,
+                  "start": 2382,
+                  "end": 2392,
                   "loc": {
                     "start": {
                       "line": 81,
@@ -2299,8 +2299,8 @@
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 2284,
-                  "end": 2306,
+                  "start": 2211,
+                  "end": 2232,
                   "loc": {
                     "start": {
                       "line": 74,
@@ -2319,8 +2319,8 @@
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 2324,
-                  "end": 2336,
+                  "start": 2250,
+                  "end": 2261,
                   "loc": {
                     "start": {
                       "line": 75,
@@ -2339,8 +2339,8 @@
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 2344,
-                  "end": 2384,
+                  "start": 2269,
+                  "end": 2307,
                   "loc": {
                     "start": {
                       "line": 76,
@@ -2359,8 +2359,8 @@
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 2397,
-                  "end": 2460,
+                  "start": 2320,
+                  "end": 2380,
                   "loc": {
                     "start": {
                       "line": 78,
@@ -2379,8 +2379,8 @@
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 2473,
-                  "end": 2991,
+                  "start": 2393,
+                  "end": 2909,
                   "loc": {
                     "start": {
                       "line": 81,
@@ -2406,9 +2406,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 2244,
-            "end": 2264,
+            "value": "*\n * @ignore\n ",
+            "start": 2174,
+            "end": 2192,
             "loc": {
               "start": {
                 "line": 71,
@@ -2424,8 +2424,8 @@
       },
       {
         "type": "ExpressionStatement",
-        "start": 2997,
-        "end": 3078,
+        "start": 2913,
+        "end": 2994,
         "loc": {
           "start": {
             "line": 85,
@@ -2438,8 +2438,8 @@
         },
         "expression": {
           "type": "CallExpression",
-          "start": 2997,
-          "end": 3077,
+          "start": 2913,
+          "end": 2993,
           "loc": {
             "start": {
               "line": 85,
@@ -2452,8 +2452,8 @@
           },
           "callee": {
             "type": "MemberExpression",
-            "start": 2997,
-            "end": 3008,
+            "start": 2913,
+            "end": 2924,
             "loc": {
               "start": {
                 "line": 85,
@@ -2466,8 +2466,8 @@
             },
             "object": {
               "type": "Identifier",
-              "start": 2997,
-              "end": 3004,
+              "start": 2913,
+              "end": 2920,
               "loc": {
                 "start": {
                   "line": 85,
@@ -2483,8 +2483,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 3005,
-              "end": 3008,
+              "start": 2921,
+              "end": 2924,
               "loc": {
                 "start": {
                   "line": 85,
@@ -2503,8 +2503,8 @@
           "arguments": [
             {
               "type": "TemplateLiteral",
-              "start": 3009,
-              "end": 3026,
+              "start": 2925,
+              "end": 2942,
               "loc": {
                 "start": {
                   "line": 85,
@@ -2518,8 +2518,8 @@
               "expressions": [
                 {
                   "type": "Identifier",
-                  "start": 3014,
-                  "end": 3024,
+                  "start": 2930,
+                  "end": 2940,
                   "loc": {
                     "start": {
                       "line": 85,
@@ -2537,8 +2537,8 @@
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 3010,
-                  "end": 3012,
+                  "start": 2926,
+                  "end": 2928,
                   "loc": {
                     "start": {
                       "line": 85,
@@ -2557,8 +2557,8 @@
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 3025,
-                  "end": 3025,
+                  "start": 2941,
+                  "end": 2941,
                   "loc": {
                     "start": {
                       "line": 85,
@@ -2579,8 +2579,8 @@
             },
             {
               "type": "Identifier",
-              "start": 3028,
-              "end": 3036,
+              "start": 2944,
+              "end": 2952,
               "loc": {
                 "start": {
                   "line": 85,
@@ -2596,8 +2596,8 @@
             },
             {
               "type": "StringLiteral",
-              "start": 3038,
-              "end": 3076,
+              "start": 2954,
+              "end": 2992,
               "loc": {
                 "start": {
                   "line": 85,
@@ -2619,8 +2619,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 1871,
-        "end": 1908,
+        "start": 1822,
+        "end": 1859,
         "loc": {
           "start": {
             "line": 50,
@@ -2635,8 +2635,8 @@
         "source": null,
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 409,
-          "end": 1867,
+          "start": 402,
+          "end": 1820,
           "loc": {
             "start": {
               "line": 8,
@@ -2649,8 +2649,8 @@
           },
           "id": {
             "type": "Identifier",
-            "start": 415,
-            "end": 425,
+            "start": 408,
+            "end": 418,
             "loc": {
               "start": {
                 "line": 8,
@@ -2667,8 +2667,8 @@
           "superClass": null,
           "body": {
             "type": "ClassBody",
-            "start": 426,
-            "end": 1867,
+            "start": 419,
+            "end": 1820,
             "loc": {
               "start": {
                 "line": 8,
@@ -2682,8 +2682,8 @@
             "body": [
               {
                 "type": "ClassProperty",
-                "start": 717,
-                "end": 731,
+                "start": 705,
+                "end": 719,
                 "loc": {
                   "start": {
                     "line": 13,
@@ -2698,8 +2698,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 717,
-                  "end": 722,
+                  "start": 705,
+                  "end": 710,
                   "loc": {
                     "start": {
                       "line": 13,
@@ -2716,8 +2716,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 725,
-                  "end": 730,
+                  "start": 713,
+                  "end": 718,
                   "loc": {
                     "start": {
                       "line": 13,
@@ -2734,9 +2734,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\r\n     * @site https://github.com/EvitcaStudio/Tween\r\n     ",
-                    "start": 433,
-                    "end": 711,
+                    "value": "*\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\n     * @site https://github.com/EvitcaStudio/Tween\n     ",
+                    "start": 425,
+                    "end": 700,
                     "loc": {
                       "start": {
                         "line": 9,
@@ -2752,9 +2752,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A class representing a state machine manager.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                    "start": 737,
-                    "end": 862,
+                    "value": "*\n     * A class representing a state machine manager.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                    "start": 724,
+                    "end": 846,
                     "loc": {
                       "start": {
                         "line": 14,
@@ -2770,8 +2770,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 868,
-                "end": 896,
+                "start": 851,
+                "end": 879,
                 "loc": {
                   "start": {
                     "line": 18,
@@ -2786,8 +2786,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 868,
-                  "end": 880,
+                  "start": 851,
+                  "end": 863,
                   "loc": {
                     "start": {
                       "line": 18,
@@ -2804,8 +2804,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 883,
-                  "end": 895,
+                  "start": 866,
+                  "end": 878,
                   "loc": {
                     "start": {
                       "line": 18,
@@ -2822,9 +2822,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A class representing a state machine manager.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                    "start": 737,
-                    "end": 862,
+                    "value": "*\n     * A class representing a state machine manager.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                    "start": 724,
+                    "end": 846,
                     "loc": {
                       "start": {
                         "line": 14,
@@ -2840,9 +2840,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A class representing a state.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                    "start": 902,
-                    "end": 1011,
+                    "value": "*\n     * A class representing a state.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                    "start": 884,
+                    "end": 990,
                     "loc": {
                       "start": {
                         "line": 19,
@@ -2858,8 +2858,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 1017,
-                "end": 1031,
+                "start": 995,
+                "end": 1009,
                 "loc": {
                   "start": {
                     "line": 23,
@@ -2874,8 +2874,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1017,
-                  "end": 1022,
+                  "start": 995,
+                  "end": 1000,
                   "loc": {
                     "start": {
                       "line": 23,
@@ -2892,8 +2892,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 1025,
-                  "end": 1030,
+                  "start": 1003,
+                  "end": 1008,
                   "loc": {
                     "start": {
                       "line": 23,
@@ -2910,9 +2910,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A class representing a state.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-                    "start": 902,
-                    "end": 1011,
+                    "value": "*\n     * A class representing a state.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+                    "start": 884,
+                    "end": 990,
                     "loc": {
                       "start": {
                         "line": 19,
@@ -2928,9 +2928,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A plugin that will easily allow you to play sounds and control them.\r\n     * @site https://github.com/EvitcaStudio/Resonance\r\n     ",
-                    "start": 1037,
-                    "end": 1182,
+                    "value": "*\n     * A plugin that will easily allow you to play sounds and control them.\n     * @site https://github.com/EvitcaStudio/Resonance\n     ",
+                    "start": 1014,
+                    "end": 1156,
                     "loc": {
                       "start": {
                         "line": 24,
@@ -2946,8 +2946,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 1188,
-                "end": 1210,
+                "start": 1161,
+                "end": 1183,
                 "loc": {
                   "start": {
                     "line": 28,
@@ -2962,8 +2962,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1188,
-                  "end": 1197,
+                  "start": 1161,
+                  "end": 1170,
                   "loc": {
                     "start": {
                       "line": 28,
@@ -2980,8 +2980,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 1200,
-                  "end": 1209,
+                  "start": 1173,
+                  "end": 1182,
                   "loc": {
                     "start": {
                       "line": 28,
@@ -2998,9 +2998,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A plugin that will easily allow you to play sounds and control them.\r\n     * @site https://github.com/EvitcaStudio/Resonance\r\n     ",
-                    "start": 1037,
-                    "end": 1182,
+                    "value": "*\n     * A plugin that will easily allow you to play sounds and control them.\n     * @site https://github.com/EvitcaStudio/Resonance\n     ",
+                    "start": 1014,
+                    "end": 1156,
                     "loc": {
                       "start": {
                         "line": 24,
@@ -3016,9 +3016,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\r\n     * @site https://github.com/EvitcaStudio/Collector\r\n     ",
-                    "start": 1216,
-                    "end": 1403,
+                    "value": "*\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\n     * @site https://github.com/EvitcaStudio/Collector\n     ",
+                    "start": 1188,
+                    "end": 1372,
                     "loc": {
                       "start": {
                         "line": 29,
@@ -3034,8 +3034,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 1409,
-                "end": 1431,
+                "start": 1377,
+                "end": 1399,
                 "loc": {
                   "start": {
                     "line": 33,
@@ -3050,8 +3050,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1409,
-                  "end": 1418,
+                  "start": 1377,
+                  "end": 1386,
                   "loc": {
                     "start": {
                       "line": 33,
@@ -3068,8 +3068,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 1421,
-                  "end": 1430,
+                  "start": 1389,
+                  "end": 1398,
                   "loc": {
                     "start": {
                       "line": 33,
@@ -3086,9 +3086,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\r\n     * @site https://github.com/EvitcaStudio/Collector\r\n     ",
-                    "start": 1216,
-                    "end": 1403,
+                    "value": "*\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\n     * @site https://github.com/EvitcaStudio/Collector\n     ",
+                    "start": 1188,
+                    "end": 1372,
                     "loc": {
                       "start": {
                         "line": 29,
@@ -3104,9 +3104,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A small plugin full of useful things.\r\n     * @site https://github.com/EvitcaStudio/Utils\r\n     ",
-                    "start": 1437,
-                    "end": 1547,
+                    "value": "*\n     * A small plugin full of useful things.\n     * @site https://github.com/EvitcaStudio/Utils\n     ",
+                    "start": 1404,
+                    "end": 1511,
                     "loc": {
                       "start": {
                         "line": 34,
@@ -3122,8 +3122,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 1553,
-                "end": 1567,
+                "start": 1516,
+                "end": 1530,
                 "loc": {
                   "start": {
                     "line": 38,
@@ -3138,8 +3138,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1553,
-                  "end": 1558,
+                  "start": 1516,
+                  "end": 1521,
                   "loc": {
                     "start": {
                       "line": 38,
@@ -3156,8 +3156,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 1561,
-                  "end": 1566,
+                  "start": 1524,
+                  "end": 1529,
                   "loc": {
                     "start": {
                       "line": 38,
@@ -3174,9 +3174,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A small plugin full of useful things.\r\n     * @site https://github.com/EvitcaStudio/Utils\r\n     ",
-                    "start": 1437,
-                    "end": 1547,
+                    "value": "*\n     * A small plugin full of useful things.\n     * @site https://github.com/EvitcaStudio/Utils\n     ",
+                    "start": 1404,
+                    "end": 1511,
                     "loc": {
                       "start": {
                         "line": 34,
@@ -3192,9 +3192,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\r\n     * @site https://github.com/EvitcaStudio/Pulse\r\n     ",
-                    "start": 1573,
-                    "end": 1754,
+                    "value": "*\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\n     * @site https://github.com/EvitcaStudio/Pulse\n     ",
+                    "start": 1535,
+                    "end": 1713,
                     "loc": {
                       "start": {
                         "line": 39,
@@ -3210,8 +3210,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 1760,
-                "end": 1774,
+                "start": 1718,
+                "end": 1732,
                 "loc": {
                   "start": {
                     "line": 43,
@@ -3226,8 +3226,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1760,
-                  "end": 1765,
+                  "start": 1718,
+                  "end": 1723,
                   "loc": {
                     "start": {
                       "line": 43,
@@ -3244,8 +3244,8 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 1768,
-                  "end": 1773,
+                  "start": 1726,
+                  "end": 1731,
                   "loc": {
                     "start": {
                       "line": 43,
@@ -3262,9 +3262,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\r\n     * @site https://github.com/EvitcaStudio/Pulse\r\n     ",
-                    "start": 1573,
-                    "end": 1754,
+                    "value": "*\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\n     * @site https://github.com/EvitcaStudio/Pulse\n     ",
+                    "start": 1535,
+                    "end": 1713,
                     "loc": {
                       "start": {
                         "line": 39,
@@ -3280,9 +3280,9 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * The version of the module.\r\n     ",
-                    "start": 1780,
-                    "end": 1827,
+                    "value": "*\n     * The version of the module.\n     ",
+                    "start": 1737,
+                    "end": 1782,
                     "loc": {
                       "start": {
                         "line": 44,
@@ -3298,8 +3298,8 @@
               },
               {
                 "type": "ClassProperty",
-                "start": 1833,
-                "end": 1864,
+                "start": 1787,
+                "end": 1818,
                 "loc": {
                   "start": {
                     "line": 47,
@@ -3314,8 +3314,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1833,
-                  "end": 1840,
+                  "start": 1787,
+                  "end": 1794,
                   "loc": {
                     "start": {
                       "line": 47,
@@ -3332,8 +3332,8 @@
                 },
                 "value": {
                   "type": "StringLiteral",
-                  "start": 1843,
-                  "end": 1863,
+                  "start": 1797,
+                  "end": 1817,
                   "loc": {
                     "start": {
                       "line": 47,
@@ -3353,9 +3353,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n     * The version of the module.\r\n     ",
-                    "start": 1780,
-                    "end": 1827,
+                    "value": "*\n     * The version of the module.\n     ",
+                    "start": 1737,
+                    "end": 1782,
                     "loc": {
                       "start": {
                         "line": 44,
@@ -3376,9 +3376,9 @@
           "trailingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\r\n * @ignore\r\n ",
-              "start": 1910,
-              "end": 1930,
+              "value": "*\n * @ignore\n ",
+              "start": 1860,
+              "end": 1878,
               "loc": {
                 "start": {
                   "line": 51,
@@ -3395,9 +3395,9 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * @ignore\r\n ",
-            "start": 1910,
-            "end": 1930,
+            "value": "*\n * @ignore\n ",
+            "start": 1860,
+            "end": 1878,
             "loc": {
               "start": {
                 "line": 51,
@@ -3418,9 +3418,9 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\r\n     * @site https://github.com/EvitcaStudio/Tween\r\n     ",
-      "start": 433,
-      "end": 711,
+      "value": "*\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\n     * @site https://github.com/EvitcaStudio/Tween\n     ",
+      "start": 425,
+      "end": 700,
       "loc": {
         "start": {
           "line": 9,
@@ -3434,9 +3434,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A class representing a state machine manager.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-      "start": 737,
-      "end": 862,
+      "value": "*\n     * A class representing a state machine manager.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+      "start": 724,
+      "end": 846,
       "loc": {
         "start": {
           "line": 14,
@@ -3450,9 +3450,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A class representing a state.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-      "start": 902,
-      "end": 1011,
+      "value": "*\n     * A class representing a state.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+      "start": 884,
+      "end": 990,
       "loc": {
         "start": {
           "line": 19,
@@ -3466,9 +3466,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A plugin that will easily allow you to play sounds and control them.\r\n     * @site https://github.com/EvitcaStudio/Resonance\r\n     ",
-      "start": 1037,
-      "end": 1182,
+      "value": "*\n     * A plugin that will easily allow you to play sounds and control them.\n     * @site https://github.com/EvitcaStudio/Resonance\n     ",
+      "start": 1014,
+      "end": 1156,
       "loc": {
         "start": {
           "line": 24,
@@ -3482,9 +3482,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\r\n     * @site https://github.com/EvitcaStudio/Collector\r\n     ",
-      "start": 1216,
-      "end": 1403,
+      "value": "*\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\n     * @site https://github.com/EvitcaStudio/Collector\n     ",
+      "start": 1188,
+      "end": 1372,
       "loc": {
         "start": {
           "line": 29,
@@ -3498,9 +3498,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A small plugin full of useful things.\r\n     * @site https://github.com/EvitcaStudio/Utils\r\n     ",
-      "start": 1437,
-      "end": 1547,
+      "value": "*\n     * A small plugin full of useful things.\n     * @site https://github.com/EvitcaStudio/Utils\n     ",
+      "start": 1404,
+      "end": 1511,
       "loc": {
         "start": {
           "line": 34,
@@ -3514,9 +3514,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\r\n     * @site https://github.com/EvitcaStudio/Pulse\r\n     ",
-      "start": 1573,
-      "end": 1754,
+      "value": "*\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\n     * @site https://github.com/EvitcaStudio/Pulse\n     ",
+      "start": 1535,
+      "end": 1713,
       "loc": {
         "start": {
           "line": 39,
@@ -3530,9 +3530,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * The version of the module.\r\n     ",
-      "start": 1780,
-      "end": 1827,
+      "value": "*\n     * The version of the module.\n     ",
+      "start": 1737,
+      "end": 1782,
       "loc": {
         "start": {
           "line": 44,
@@ -3546,9 +3546,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 1910,
-      "end": 1930,
+      "value": "*\n * @ignore\n ",
+      "start": 1860,
+      "end": 1878,
       "loc": {
         "start": {
           "line": 51,
@@ -3562,9 +3562,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 1977,
-      "end": 1997,
+      "value": "*\n * @ignore\n ",
+      "start": 1923,
+      "end": 1941,
       "loc": {
         "start": {
           "line": 55,
@@ -3579,8 +3579,8 @@
     {
       "type": "CommentLine",
       "value": " Dark navy blue",
-      "start": 2034,
-      "end": 2051,
+      "start": 1977,
+      "end": 1994,
       "loc": {
         "start": {
           "line": 58,
@@ -3594,9 +3594,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2053,
-      "end": 2073,
+      "value": "*\n * @ignore\n ",
+      "start": 1995,
+      "end": 2013,
       "loc": {
         "start": {
           "line": 59,
@@ -3611,8 +3611,8 @@
     {
       "type": "CommentLine",
       "value": " White text color",
-      "start": 2097,
-      "end": 2116,
+      "start": 2036,
+      "end": 2055,
       "loc": {
         "start": {
           "line": 62,
@@ -3626,9 +3626,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2118,
-      "end": 2138,
+      "value": "*\n * @ignore\n ",
+      "start": 2056,
+      "end": 2074,
       "loc": {
         "start": {
           "line": 63,
@@ -3642,9 +3642,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2181,
-      "end": 2201,
+      "value": "*\n * @ignore\n ",
+      "start": 2115,
+      "end": 2133,
       "loc": {
         "start": {
           "line": 67,
@@ -3658,9 +3658,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2244,
-      "end": 2264,
+      "value": "*\n * @ignore\n ",
+      "start": 2174,
+      "end": 2192,
       "loc": {
         "start": {
           "line": 71,
@@ -3872,8 +3872,8 @@
         "updateContext": null
       },
       "value": "import",
-      "start": 59,
-      "end": 65,
+      "start": 58,
+      "end": 64,
       "loc": {
         "start": {
           "line": 2,
@@ -3897,8 +3897,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 66,
-      "end": 67,
+      "start": 65,
+      "end": 66,
       "loc": {
         "start": {
           "line": 2,
@@ -3923,8 +3923,8 @@
         "binop": null
       },
       "value": "Resonance",
-      "start": 68,
-      "end": 77,
+      "start": 67,
+      "end": 76,
       "loc": {
         "start": {
           "line": 2,
@@ -3948,8 +3948,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 78,
-      "end": 79,
+      "start": 77,
+      "end": 78,
       "loc": {
         "start": {
           "line": 2,
@@ -3974,8 +3974,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 80,
-      "end": 84,
+      "start": 79,
+      "end": 83,
       "loc": {
         "start": {
           "line": 2,
@@ -4001,8 +4001,8 @@
         "updateContext": null
       },
       "value": "./submodules/Resonance/src/resonance.mjs",
-      "start": 85,
-      "end": 127,
+      "start": 84,
+      "end": 126,
       "loc": {
         "start": {
           "line": 2,
@@ -4027,8 +4027,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 127,
-      "end": 128,
+      "start": 126,
+      "end": 127,
       "loc": {
         "start": {
           "line": 2,
@@ -4055,8 +4055,8 @@
         "updateContext": null
       },
       "value": "import",
-      "start": 130,
-      "end": 136,
+      "start": 128,
+      "end": 134,
       "loc": {
         "start": {
           "line": 3,
@@ -4080,8 +4080,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 137,
-      "end": 138,
+      "start": 135,
+      "end": 136,
       "loc": {
         "start": {
           "line": 3,
@@ -4106,8 +4106,8 @@
         "binop": null
       },
       "value": "Collector",
-      "start": 139,
-      "end": 148,
+      "start": 137,
+      "end": 146,
       "loc": {
         "start": {
           "line": 3,
@@ -4131,8 +4131,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 149,
-      "end": 150,
+      "start": 147,
+      "end": 148,
       "loc": {
         "start": {
           "line": 3,
@@ -4157,8 +4157,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 151,
-      "end": 155,
+      "start": 149,
+      "end": 153,
       "loc": {
         "start": {
           "line": 3,
@@ -4184,8 +4184,8 @@
         "updateContext": null
       },
       "value": "./submodules/Collector/src/collector.mjs",
-      "start": 156,
-      "end": 198,
+      "start": 154,
+      "end": 196,
       "loc": {
         "start": {
           "line": 3,
@@ -4210,8 +4210,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 198,
-      "end": 199,
+      "start": 196,
+      "end": 197,
       "loc": {
         "start": {
           "line": 3,
@@ -4238,8 +4238,8 @@
         "updateContext": null
       },
       "value": "import",
-      "start": 201,
-      "end": 207,
+      "start": 198,
+      "end": 204,
       "loc": {
         "start": {
           "line": 4,
@@ -4263,8 +4263,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 208,
-      "end": 209,
+      "start": 205,
+      "end": 206,
       "loc": {
         "start": {
           "line": 4,
@@ -4289,8 +4289,8 @@
         "binop": null
       },
       "value": "Utils",
-      "start": 210,
-      "end": 215,
+      "start": 207,
+      "end": 212,
       "loc": {
         "start": {
           "line": 4,
@@ -4314,8 +4314,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 216,
-      "end": 217,
+      "start": 213,
+      "end": 214,
       "loc": {
         "start": {
           "line": 4,
@@ -4340,8 +4340,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 218,
-      "end": 222,
+      "start": 215,
+      "end": 219,
       "loc": {
         "start": {
           "line": 4,
@@ -4367,8 +4367,8 @@
         "updateContext": null
       },
       "value": "./submodules/Utils/src/utils.mjs",
-      "start": 223,
-      "end": 257,
+      "start": 220,
+      "end": 254,
       "loc": {
         "start": {
           "line": 4,
@@ -4393,8 +4393,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 257,
-      "end": 258,
+      "start": 254,
+      "end": 255,
       "loc": {
         "start": {
           "line": 4,
@@ -4421,8 +4421,8 @@
         "updateContext": null
       },
       "value": "import",
-      "start": 260,
-      "end": 266,
+      "start": 256,
+      "end": 262,
       "loc": {
         "start": {
           "line": 5,
@@ -4446,8 +4446,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 267,
-      "end": 268,
+      "start": 263,
+      "end": 264,
       "loc": {
         "start": {
           "line": 5,
@@ -4472,8 +4472,8 @@
         "binop": null
       },
       "value": "StateManager",
-      "start": 269,
-      "end": 281,
+      "start": 265,
+      "end": 277,
       "loc": {
         "start": {
           "line": 5,
@@ -4498,8 +4498,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 281,
-      "end": 282,
+      "start": 277,
+      "end": 278,
       "loc": {
         "start": {
           "line": 5,
@@ -4524,8 +4524,8 @@
         "binop": null
       },
       "value": "State",
-      "start": 283,
-      "end": 288,
+      "start": 279,
+      "end": 284,
       "loc": {
         "start": {
           "line": 5,
@@ -4549,8 +4549,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 289,
-      "end": 290,
+      "start": 285,
+      "end": 286,
       "loc": {
         "start": {
           "line": 5,
@@ -4575,8 +4575,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 291,
-      "end": 295,
+      "start": 287,
+      "end": 291,
       "loc": {
         "start": {
           "line": 5,
@@ -4602,8 +4602,8 @@
         "updateContext": null
       },
       "value": "./submodules/StateManager/src/state-manager.mjs",
-      "start": 296,
-      "end": 345,
+      "start": 292,
+      "end": 341,
       "loc": {
         "start": {
           "line": 5,
@@ -4628,8 +4628,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 345,
-      "end": 346,
+      "start": 341,
+      "end": 342,
       "loc": {
         "start": {
           "line": 5,
@@ -4656,8 +4656,8 @@
         "updateContext": null
       },
       "value": "import",
-      "start": 348,
-      "end": 354,
+      "start": 343,
+      "end": 349,
       "loc": {
         "start": {
           "line": 6,
@@ -4681,8 +4681,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 355,
-      "end": 356,
+      "start": 350,
+      "end": 351,
       "loc": {
         "start": {
           "line": 6,
@@ -4707,8 +4707,8 @@
         "binop": null
       },
       "value": "Pulse",
-      "start": 357,
-      "end": 362,
+      "start": 352,
+      "end": 357,
       "loc": {
         "start": {
           "line": 6,
@@ -4732,8 +4732,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 363,
-      "end": 364,
+      "start": 358,
+      "end": 359,
       "loc": {
         "start": {
           "line": 6,
@@ -4758,8 +4758,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 365,
-      "end": 369,
+      "start": 360,
+      "end": 364,
       "loc": {
         "start": {
           "line": 6,
@@ -4785,8 +4785,8 @@
         "updateContext": null
       },
       "value": "./submodules/Pulse/src/pulse.mjs",
-      "start": 370,
-      "end": 404,
+      "start": 365,
+      "end": 399,
       "loc": {
         "start": {
           "line": 6,
@@ -4811,8 +4811,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 404,
-      "end": 405,
+      "start": 399,
+      "end": 400,
       "loc": {
         "start": {
           "line": 6,
@@ -4839,8 +4839,8 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 409,
-      "end": 414,
+      "start": 402,
+      "end": 407,
       "loc": {
         "start": {
           "line": 8,
@@ -4865,8 +4865,8 @@
         "binop": null
       },
       "value": "CoreEngine",
-      "start": 415,
-      "end": 425,
+      "start": 408,
+      "end": 418,
       "loc": {
         "start": {
           "line": 8,
@@ -4890,8 +4890,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 426,
-      "end": 427,
+      "start": 419,
+      "end": 420,
       "loc": {
         "start": {
           "line": 8,
@@ -4905,9 +4905,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\r\n     * @site https://github.com/EvitcaStudio/Tween\r\n     ",
-      "start": 433,
-      "end": 711,
+      "value": "*\n     * Tween is a small library for creating tweening animations in JavaScript. It allows you to smoothly animate an object's properties from one value to another over a specified duration using easing functions.\n     * @site https://github.com/EvitcaStudio/Tween\n     ",
+      "start": 425,
+      "end": 700,
       "loc": {
         "start": {
           "line": 9,
@@ -4932,8 +4932,8 @@
         "binop": null
       },
       "value": "Tween",
-      "start": 717,
-      "end": 722,
+      "start": 705,
+      "end": 710,
       "loc": {
         "start": {
           "line": 13,
@@ -4959,8 +4959,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 723,
-      "end": 724,
+      "start": 711,
+      "end": 712,
       "loc": {
         "start": {
           "line": 13,
@@ -4985,8 +4985,8 @@
         "binop": null
       },
       "value": "Tween",
-      "start": 725,
-      "end": 730,
+      "start": 713,
+      "end": 718,
       "loc": {
         "start": {
           "line": 13,
@@ -5011,8 +5011,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 730,
-      "end": 731,
+      "start": 718,
+      "end": 719,
       "loc": {
         "start": {
           "line": 13,
@@ -5026,9 +5026,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A class representing a state machine manager.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-      "start": 737,
-      "end": 862,
+      "value": "*\n     * A class representing a state machine manager.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+      "start": 724,
+      "end": 846,
       "loc": {
         "start": {
           "line": 14,
@@ -5053,8 +5053,8 @@
         "binop": null
       },
       "value": "StateManager",
-      "start": 868,
-      "end": 880,
+      "start": 851,
+      "end": 863,
       "loc": {
         "start": {
           "line": 18,
@@ -5080,8 +5080,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 881,
-      "end": 882,
+      "start": 864,
+      "end": 865,
       "loc": {
         "start": {
           "line": 18,
@@ -5106,8 +5106,8 @@
         "binop": null
       },
       "value": "StateManager",
-      "start": 883,
-      "end": 895,
+      "start": 866,
+      "end": 878,
       "loc": {
         "start": {
           "line": 18,
@@ -5132,8 +5132,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 895,
-      "end": 896,
+      "start": 878,
+      "end": 879,
       "loc": {
         "start": {
           "line": 18,
@@ -5147,9 +5147,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A class representing a state.\r\n     * @site https://github.com/EvitcaStudio/StateManager\r\n     ",
-      "start": 902,
-      "end": 1011,
+      "value": "*\n     * A class representing a state.\n     * @site https://github.com/EvitcaStudio/StateManager\n     ",
+      "start": 884,
+      "end": 990,
       "loc": {
         "start": {
           "line": 19,
@@ -5174,8 +5174,8 @@
         "binop": null
       },
       "value": "State",
-      "start": 1017,
-      "end": 1022,
+      "start": 995,
+      "end": 1000,
       "loc": {
         "start": {
           "line": 23,
@@ -5201,8 +5201,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1023,
-      "end": 1024,
+      "start": 1001,
+      "end": 1002,
       "loc": {
         "start": {
           "line": 23,
@@ -5227,8 +5227,8 @@
         "binop": null
       },
       "value": "State",
-      "start": 1025,
-      "end": 1030,
+      "start": 1003,
+      "end": 1008,
       "loc": {
         "start": {
           "line": 23,
@@ -5253,8 +5253,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1030,
-      "end": 1031,
+      "start": 1008,
+      "end": 1009,
       "loc": {
         "start": {
           "line": 23,
@@ -5268,9 +5268,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A plugin that will easily allow you to play sounds and control them.\r\n     * @site https://github.com/EvitcaStudio/Resonance\r\n     ",
-      "start": 1037,
-      "end": 1182,
+      "value": "*\n     * A plugin that will easily allow you to play sounds and control them.\n     * @site https://github.com/EvitcaStudio/Resonance\n     ",
+      "start": 1014,
+      "end": 1156,
       "loc": {
         "start": {
           "line": 24,
@@ -5295,8 +5295,8 @@
         "binop": null
       },
       "value": "resonance",
-      "start": 1188,
-      "end": 1197,
+      "start": 1161,
+      "end": 1170,
       "loc": {
         "start": {
           "line": 28,
@@ -5322,8 +5322,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1198,
-      "end": 1199,
+      "start": 1171,
+      "end": 1172,
       "loc": {
         "start": {
           "line": 28,
@@ -5348,8 +5348,8 @@
         "binop": null
       },
       "value": "Resonance",
-      "start": 1200,
-      "end": 1209,
+      "start": 1173,
+      "end": 1182,
       "loc": {
         "start": {
           "line": 28,
@@ -5374,8 +5374,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1209,
-      "end": 1210,
+      "start": 1182,
+      "end": 1183,
       "loc": {
         "start": {
           "line": 28,
@@ -5389,9 +5389,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\r\n     * @site https://github.com/EvitcaStudio/Collector\r\n     ",
-      "start": 1216,
-      "end": 1403,
+      "value": "*\n     * This plugin gives you an easy and beneficial way to reuse objects, as well as slow down the garbage collector.\n     * @site https://github.com/EvitcaStudio/Collector\n     ",
+      "start": 1188,
+      "end": 1372,
       "loc": {
         "start": {
           "line": 29,
@@ -5416,8 +5416,8 @@
         "binop": null
       },
       "value": "collector",
-      "start": 1409,
-      "end": 1418,
+      "start": 1377,
+      "end": 1386,
       "loc": {
         "start": {
           "line": 33,
@@ -5443,8 +5443,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1419,
-      "end": 1420,
+      "start": 1387,
+      "end": 1388,
       "loc": {
         "start": {
           "line": 33,
@@ -5469,8 +5469,8 @@
         "binop": null
       },
       "value": "Collector",
-      "start": 1421,
-      "end": 1430,
+      "start": 1389,
+      "end": 1398,
       "loc": {
         "start": {
           "line": 33,
@@ -5495,8 +5495,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1430,
-      "end": 1431,
+      "start": 1398,
+      "end": 1399,
       "loc": {
         "start": {
           "line": 33,
@@ -5510,9 +5510,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A small plugin full of useful things.\r\n     * @site https://github.com/EvitcaStudio/Utils\r\n     ",
-      "start": 1437,
-      "end": 1547,
+      "value": "*\n     * A small plugin full of useful things.\n     * @site https://github.com/EvitcaStudio/Utils\n     ",
+      "start": 1404,
+      "end": 1511,
       "loc": {
         "start": {
           "line": 34,
@@ -5537,8 +5537,8 @@
         "binop": null
       },
       "value": "utils",
-      "start": 1553,
-      "end": 1558,
+      "start": 1516,
+      "end": 1521,
       "loc": {
         "start": {
           "line": 38,
@@ -5564,8 +5564,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1559,
-      "end": 1560,
+      "start": 1522,
+      "end": 1523,
       "loc": {
         "start": {
           "line": 38,
@@ -5590,8 +5590,8 @@
         "binop": null
       },
       "value": "Utils",
-      "start": 1561,
-      "end": 1566,
+      "start": 1524,
+      "end": 1529,
       "loc": {
         "start": {
           "line": 38,
@@ -5616,8 +5616,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1566,
-      "end": 1567,
+      "start": 1529,
+      "end": 1530,
       "loc": {
         "start": {
           "line": 38,
@@ -5631,9 +5631,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\r\n     * @site https://github.com/EvitcaStudio/Pulse\r\n     ",
-      "start": 1573,
-      "end": 1754,
+      "value": "*\n     * A plugin that allows you to listen to events that happen on diobs. Have your code called alongside an event!\n     * @site https://github.com/EvitcaStudio/Pulse\n     ",
+      "start": 1535,
+      "end": 1713,
       "loc": {
         "start": {
           "line": 39,
@@ -5658,8 +5658,8 @@
         "binop": null
       },
       "value": "pulse",
-      "start": 1760,
-      "end": 1765,
+      "start": 1718,
+      "end": 1723,
       "loc": {
         "start": {
           "line": 43,
@@ -5685,8 +5685,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1766,
-      "end": 1767,
+      "start": 1724,
+      "end": 1725,
       "loc": {
         "start": {
           "line": 43,
@@ -5711,8 +5711,8 @@
         "binop": null
       },
       "value": "Pulse",
-      "start": 1768,
-      "end": 1773,
+      "start": 1726,
+      "end": 1731,
       "loc": {
         "start": {
           "line": 43,
@@ -5737,8 +5737,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1773,
-      "end": 1774,
+      "start": 1731,
+      "end": 1732,
       "loc": {
         "start": {
           "line": 43,
@@ -5752,9 +5752,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n     * The version of the module.\r\n     ",
-      "start": 1780,
-      "end": 1827,
+      "value": "*\n     * The version of the module.\n     ",
+      "start": 1737,
+      "end": 1782,
       "loc": {
         "start": {
           "line": 44,
@@ -5779,8 +5779,8 @@
         "binop": null
       },
       "value": "version",
-      "start": 1833,
-      "end": 1840,
+      "start": 1787,
+      "end": 1794,
       "loc": {
         "start": {
           "line": 47,
@@ -5806,8 +5806,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1841,
-      "end": 1842,
+      "start": 1795,
+      "end": 1796,
       "loc": {
         "start": {
           "line": 47,
@@ -5833,8 +5833,8 @@
         "updateContext": null
       },
       "value": "VERSION_REPLACE_ME",
-      "start": 1843,
-      "end": 1863,
+      "start": 1797,
+      "end": 1817,
       "loc": {
         "start": {
           "line": 47,
@@ -5859,8 +5859,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1863,
-      "end": 1864,
+      "start": 1817,
+      "end": 1818,
       "loc": {
         "start": {
           "line": 47,
@@ -5884,8 +5884,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1866,
-      "end": 1867,
+      "start": 1819,
+      "end": 1820,
       "loc": {
         "start": {
           "line": 48,
@@ -5912,8 +5912,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 1871,
-      "end": 1877,
+      "start": 1822,
+      "end": 1828,
       "loc": {
         "start": {
           "line": 50,
@@ -5940,8 +5940,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 1878,
-      "end": 1883,
+      "start": 1829,
+      "end": 1834,
       "loc": {
         "start": {
           "line": 50,
@@ -5966,8 +5966,8 @@
         "binop": null
       },
       "value": "Core",
-      "start": 1884,
-      "end": 1888,
+      "start": 1835,
+      "end": 1839,
       "loc": {
         "start": {
           "line": 50,
@@ -5993,8 +5993,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1889,
-      "end": 1890,
+      "start": 1840,
+      "end": 1841,
       "loc": {
         "start": {
           "line": 50,
@@ -6021,8 +6021,8 @@
         "updateContext": null
       },
       "value": "new",
-      "start": 1891,
-      "end": 1894,
+      "start": 1842,
+      "end": 1845,
       "loc": {
         "start": {
           "line": 50,
@@ -6047,8 +6047,8 @@
         "binop": null
       },
       "value": "CoreEngine",
-      "start": 1895,
-      "end": 1905,
+      "start": 1846,
+      "end": 1856,
       "loc": {
         "start": {
           "line": 50,
@@ -6072,8 +6072,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1905,
-      "end": 1906,
+      "start": 1856,
+      "end": 1857,
       "loc": {
         "start": {
           "line": 50,
@@ -6097,8 +6097,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1906,
-      "end": 1907,
+      "start": 1857,
+      "end": 1858,
       "loc": {
         "start": {
           "line": 50,
@@ -6123,8 +6123,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1907,
-      "end": 1908,
+      "start": 1858,
+      "end": 1859,
       "loc": {
         "start": {
           "line": 50,
@@ -6138,9 +6138,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 1910,
-      "end": 1930,
+      "value": "*\n * @ignore\n ",
+      "start": 1860,
+      "end": 1878,
       "loc": {
         "start": {
           "line": 51,
@@ -6167,8 +6167,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 1932,
-      "end": 1937,
+      "start": 1879,
+      "end": 1884,
       "loc": {
         "start": {
           "line": 54,
@@ -6193,8 +6193,8 @@
         "binop": null
       },
       "value": "pluginName",
-      "start": 1938,
-      "end": 1948,
+      "start": 1885,
+      "end": 1895,
       "loc": {
         "start": {
           "line": 54,
@@ -6220,8 +6220,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 1949,
-      "end": 1950,
+      "start": 1896,
+      "end": 1897,
       "loc": {
         "start": {
           "line": 54,
@@ -6245,8 +6245,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1951,
-      "end": 1952,
+      "start": 1898,
+      "end": 1899,
       "loc": {
         "start": {
           "line": 54,
@@ -6272,8 +6272,8 @@
         "updateContext": null
       },
       "value": "Core@v",
-      "start": 1952,
-      "end": 1958,
+      "start": 1899,
+      "end": 1905,
       "loc": {
         "start": {
           "line": 54,
@@ -6297,8 +6297,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1958,
-      "end": 1960,
+      "start": 1905,
+      "end": 1907,
       "loc": {
         "start": {
           "line": 54,
@@ -6323,8 +6323,8 @@
         "binop": null
       },
       "value": "Core",
-      "start": 1960,
-      "end": 1964,
+      "start": 1907,
+      "end": 1911,
       "loc": {
         "start": {
           "line": 54,
@@ -6349,8 +6349,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1964,
-      "end": 1965,
+      "start": 1911,
+      "end": 1912,
       "loc": {
         "start": {
           "line": 54,
@@ -6375,8 +6375,8 @@
         "binop": null
       },
       "value": "version",
-      "start": 1965,
-      "end": 1972,
+      "start": 1912,
+      "end": 1919,
       "loc": {
         "start": {
           "line": 54,
@@ -6400,8 +6400,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1972,
-      "end": 1973,
+      "start": 1919,
+      "end": 1920,
       "loc": {
         "start": {
           "line": 54,
@@ -6427,8 +6427,8 @@
         "updateContext": null
       },
       "value": "",
-      "start": 1973,
-      "end": 1973,
+      "start": 1920,
+      "end": 1920,
       "loc": {
         "start": {
           "line": 54,
@@ -6452,8 +6452,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1973,
-      "end": 1974,
+      "start": 1920,
+      "end": 1921,
       "loc": {
         "start": {
           "line": 54,
@@ -6478,8 +6478,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1974,
-      "end": 1975,
+      "start": 1921,
+      "end": 1922,
       "loc": {
         "start": {
           "line": 54,
@@ -6493,9 +6493,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 1977,
-      "end": 1997,
+      "value": "*\n * @ignore\n ",
+      "start": 1923,
+      "end": 1941,
       "loc": {
         "start": {
           "line": 55,
@@ -6522,8 +6522,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 1999,
-      "end": 2004,
+      "start": 1942,
+      "end": 1947,
       "loc": {
         "start": {
           "line": 58,
@@ -6548,8 +6548,8 @@
         "binop": null
       },
       "value": "backgroundColor",
-      "start": 2005,
-      "end": 2020,
+      "start": 1948,
+      "end": 1963,
       "loc": {
         "start": {
           "line": 58,
@@ -6575,8 +6575,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 2021,
-      "end": 2022,
+      "start": 1964,
+      "end": 1965,
       "loc": {
         "start": {
           "line": 58,
@@ -6602,8 +6602,8 @@
         "updateContext": null
       },
       "value": "#274472",
-      "start": 2023,
-      "end": 2032,
+      "start": 1966,
+      "end": 1975,
       "loc": {
         "start": {
           "line": 58,
@@ -6628,8 +6628,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 2032,
-      "end": 2033,
+      "start": 1975,
+      "end": 1976,
       "loc": {
         "start": {
           "line": 58,
@@ -6644,8 +6644,8 @@
     {
       "type": "CommentLine",
       "value": " Dark navy blue",
-      "start": 2034,
-      "end": 2051,
+      "start": 1977,
+      "end": 1994,
       "loc": {
         "start": {
           "line": 58,
@@ -6659,9 +6659,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2053,
-      "end": 2073,
+      "value": "*\n * @ignore\n ",
+      "start": 1995,
+      "end": 2013,
       "loc": {
         "start": {
           "line": 59,
@@ -6688,8 +6688,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 2075,
-      "end": 2080,
+      "start": 2014,
+      "end": 2019,
       "loc": {
         "start": {
           "line": 62,
@@ -6714,8 +6714,8 @@
         "binop": null
       },
       "value": "color",
-      "start": 2081,
-      "end": 2086,
+      "start": 2020,
+      "end": 2025,
       "loc": {
         "start": {
           "line": 62,
@@ -6741,8 +6741,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 2087,
-      "end": 2088,
+      "start": 2026,
+      "end": 2027,
       "loc": {
         "start": {
           "line": 62,
@@ -6768,8 +6768,8 @@
         "updateContext": null
       },
       "value": "#fff",
-      "start": 2089,
-      "end": 2095,
+      "start": 2028,
+      "end": 2034,
       "loc": {
         "start": {
           "line": 62,
@@ -6794,8 +6794,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 2095,
-      "end": 2096,
+      "start": 2034,
+      "end": 2035,
       "loc": {
         "start": {
           "line": 62,
@@ -6810,8 +6810,8 @@
     {
       "type": "CommentLine",
       "value": " White text color",
-      "start": 2097,
-      "end": 2116,
+      "start": 2036,
+      "end": 2055,
       "loc": {
         "start": {
           "line": 62,
@@ -6825,9 +6825,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2118,
-      "end": 2138,
+      "value": "*\n * @ignore\n ",
+      "start": 2056,
+      "end": 2074,
       "loc": {
         "start": {
           "line": 63,
@@ -6854,8 +6854,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 2140,
-      "end": 2145,
+      "start": 2075,
+      "end": 2080,
       "loc": {
         "start": {
           "line": 66,
@@ -6880,8 +6880,8 @@
         "binop": null
       },
       "value": "fontFamily",
-      "start": 2146,
-      "end": 2156,
+      "start": 2081,
+      "end": 2091,
       "loc": {
         "start": {
           "line": 66,
@@ -6907,8 +6907,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 2157,
-      "end": 2158,
+      "start": 2092,
+      "end": 2093,
       "loc": {
         "start": {
           "line": 66,
@@ -6934,8 +6934,8 @@
         "updateContext": null
       },
       "value": "Arial, sans-serif",
-      "start": 2159,
-      "end": 2178,
+      "start": 2094,
+      "end": 2113,
       "loc": {
         "start": {
           "line": 66,
@@ -6960,8 +6960,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 2178,
-      "end": 2179,
+      "start": 2113,
+      "end": 2114,
       "loc": {
         "start": {
           "line": 66,
@@ -6975,9 +6975,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2181,
-      "end": 2201,
+      "value": "*\n * @ignore\n ",
+      "start": 2115,
+      "end": 2133,
       "loc": {
         "start": {
           "line": 67,
@@ -7004,8 +7004,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 2203,
-      "end": 2208,
+      "start": 2134,
+      "end": 2139,
       "loc": {
         "start": {
           "line": 70,
@@ -7030,8 +7030,8 @@
         "binop": null
       },
       "value": "borderLeft",
-      "start": 2209,
-      "end": 2219,
+      "start": 2140,
+      "end": 2150,
       "loc": {
         "start": {
           "line": 70,
@@ -7057,8 +7057,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 2220,
-      "end": 2221,
+      "start": 2151,
+      "end": 2152,
       "loc": {
         "start": {
           "line": 70,
@@ -7084,8 +7084,8 @@
         "updateContext": null
       },
       "value": "5px solid #BFD7ED",
-      "start": 2222,
-      "end": 2241,
+      "start": 2153,
+      "end": 2172,
       "loc": {
         "start": {
           "line": 70,
@@ -7110,8 +7110,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 2241,
-      "end": 2242,
+      "start": 2172,
+      "end": 2173,
       "loc": {
         "start": {
           "line": 70,
@@ -7125,9 +7125,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * @ignore\r\n ",
-      "start": 2244,
-      "end": 2264,
+      "value": "*\n * @ignore\n ",
+      "start": 2174,
+      "end": 2192,
       "loc": {
         "start": {
           "line": 71,
@@ -7154,8 +7154,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 2266,
-      "end": 2271,
+      "start": 2193,
+      "end": 2198,
       "loc": {
         "start": {
           "line": 74,
@@ -7180,8 +7180,8 @@
         "binop": null
       },
       "value": "logStyle",
-      "start": 2272,
-      "end": 2280,
+      "start": 2199,
+      "end": 2207,
       "loc": {
         "start": {
           "line": 74,
@@ -7207,8 +7207,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 2281,
-      "end": 2282,
+      "start": 2208,
+      "end": 2209,
       "loc": {
         "start": {
           "line": 74,
@@ -7232,8 +7232,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2283,
-      "end": 2284,
+      "start": 2210,
+      "end": 2211,
       "loc": {
         "start": {
           "line": 74,
@@ -7259,8 +7259,8 @@
         "updateContext": null
       },
       "value": "\n  background-color: ",
-      "start": 2284,
-      "end": 2306,
+      "start": 2211,
+      "end": 2232,
       "loc": {
         "start": {
           "line": 74,
@@ -7284,8 +7284,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2306,
-      "end": 2308,
+      "start": 2232,
+      "end": 2234,
       "loc": {
         "start": {
           "line": 75,
@@ -7310,8 +7310,8 @@
         "binop": null
       },
       "value": "backgroundColor",
-      "start": 2308,
-      "end": 2323,
+      "start": 2234,
+      "end": 2249,
       "loc": {
         "start": {
           "line": 75,
@@ -7335,8 +7335,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2323,
-      "end": 2324,
+      "start": 2249,
+      "end": 2250,
       "loc": {
         "start": {
           "line": 75,
@@ -7362,8 +7362,8 @@
         "updateContext": null
       },
       "value": ";\n  color: ",
-      "start": 2324,
-      "end": 2336,
+      "start": 2250,
+      "end": 2261,
       "loc": {
         "start": {
           "line": 75,
@@ -7387,8 +7387,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2336,
-      "end": 2338,
+      "start": 2261,
+      "end": 2263,
       "loc": {
         "start": {
           "line": 76,
@@ -7413,8 +7413,8 @@
         "binop": null
       },
       "value": "color",
-      "start": 2338,
-      "end": 2343,
+      "start": 2263,
+      "end": 2268,
       "loc": {
         "start": {
           "line": 76,
@@ -7438,8 +7438,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2343,
-      "end": 2344,
+      "start": 2268,
+      "end": 2269,
       "loc": {
         "start": {
           "line": 76,
@@ -7465,8 +7465,8 @@
         "updateContext": null
       },
       "value": ";\n  padding: 6px 15px;\n  font-family: ",
-      "start": 2344,
-      "end": 2384,
+      "start": 2269,
+      "end": 2307,
       "loc": {
         "start": {
           "line": 76,
@@ -7490,8 +7490,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2384,
-      "end": 2386,
+      "start": 2307,
+      "end": 2309,
       "loc": {
         "start": {
           "line": 78,
@@ -7516,8 +7516,8 @@
         "binop": null
       },
       "value": "fontFamily",
-      "start": 2386,
-      "end": 2396,
+      "start": 2309,
+      "end": 2319,
       "loc": {
         "start": {
           "line": 78,
@@ -7541,8 +7541,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2396,
-      "end": 2397,
+      "start": 2319,
+      "end": 2320,
       "loc": {
         "start": {
           "line": 78,
@@ -7568,8 +7568,8 @@
         "updateContext": null
       },
       "value": ";\n  font-weight: bold;\n  font-style: italic;\n  border-left: ",
-      "start": 2397,
-      "end": 2460,
+      "start": 2320,
+      "end": 2380,
       "loc": {
         "start": {
           "line": 78,
@@ -7593,8 +7593,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2460,
-      "end": 2462,
+      "start": 2380,
+      "end": 2382,
       "loc": {
         "start": {
           "line": 81,
@@ -7619,8 +7619,8 @@
         "binop": null
       },
       "value": "borderLeft",
-      "start": 2462,
-      "end": 2472,
+      "start": 2382,
+      "end": 2392,
       "loc": {
         "start": {
           "line": 81,
@@ -7644,8 +7644,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2472,
-      "end": 2473,
+      "start": 2392,
+      "end": 2393,
       "loc": {
         "start": {
           "line": 81,
@@ -7671,8 +7671,8 @@
         "updateContext": null
       },
       "value": ";\n  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;\n",
-      "start": 2473,
-      "end": 2991,
+      "start": 2393,
+      "end": 2909,
       "loc": {
         "start": {
           "line": 81,
@@ -7696,8 +7696,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 2991,
-      "end": 2992,
+      "start": 2909,
+      "end": 2910,
       "loc": {
         "start": {
           "line": 83,
@@ -7722,8 +7722,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 2992,
-      "end": 2993,
+      "start": 2910,
+      "end": 2911,
       "loc": {
         "start": {
           "line": 83,
@@ -7748,8 +7748,8 @@
         "binop": null
       },
       "value": "console",
-      "start": 2997,
-      "end": 3004,
+      "start": 2913,
+      "end": 2920,
       "loc": {
         "start": {
           "line": 85,
@@ -7774,8 +7774,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 3004,
-      "end": 3005,
+      "start": 2920,
+      "end": 2921,
       "loc": {
         "start": {
           "line": 85,
@@ -7800,8 +7800,8 @@
         "binop": null
       },
       "value": "log",
-      "start": 3005,
-      "end": 3008,
+      "start": 2921,
+      "end": 2924,
       "loc": {
         "start": {
           "line": 85,
@@ -7825,8 +7825,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 3008,
-      "end": 3009,
+      "start": 2924,
+      "end": 2925,
       "loc": {
         "start": {
           "line": 85,
@@ -7850,8 +7850,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 3009,
-      "end": 3010,
+      "start": 2925,
+      "end": 2926,
       "loc": {
         "start": {
           "line": 85,
@@ -7877,8 +7877,8 @@
         "updateContext": null
       },
       "value": "%c",
-      "start": 3010,
-      "end": 3012,
+      "start": 2926,
+      "end": 2928,
       "loc": {
         "start": {
           "line": 85,
@@ -7902,8 +7902,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 3012,
-      "end": 3014,
+      "start": 2928,
+      "end": 2930,
       "loc": {
         "start": {
           "line": 85,
@@ -7928,8 +7928,8 @@
         "binop": null
       },
       "value": "pluginName",
-      "start": 3014,
-      "end": 3024,
+      "start": 2930,
+      "end": 2940,
       "loc": {
         "start": {
           "line": 85,
@@ -7953,8 +7953,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 3024,
-      "end": 3025,
+      "start": 2940,
+      "end": 2941,
       "loc": {
         "start": {
           "line": 85,
@@ -7980,8 +7980,8 @@
         "updateContext": null
       },
       "value": "",
-      "start": 3025,
-      "end": 3025,
+      "start": 2941,
+      "end": 2941,
       "loc": {
         "start": {
           "line": 85,
@@ -8005,8 +8005,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 3025,
-      "end": 3026,
+      "start": 2941,
+      "end": 2942,
       "loc": {
         "start": {
           "line": 85,
@@ -8031,8 +8031,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 3026,
-      "end": 3027,
+      "start": 2942,
+      "end": 2943,
       "loc": {
         "start": {
           "line": 85,
@@ -8057,8 +8057,8 @@
         "binop": null
       },
       "value": "logStyle",
-      "start": 3028,
-      "end": 3036,
+      "start": 2944,
+      "end": 2952,
       "loc": {
         "start": {
           "line": 85,
@@ -8083,8 +8083,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 3036,
-      "end": 3037,
+      "start": 2952,
+      "end": 2953,
       "loc": {
         "start": {
           "line": 85,
@@ -8110,8 +8110,8 @@
         "updateContext": null
       },
       "value": "https://github.com/EvitcaStudio/Core",
-      "start": 3038,
-      "end": 3076,
+      "start": 2954,
+      "end": 2992,
       "loc": {
         "start": {
           "line": 85,
@@ -8135,8 +8135,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 3076,
-      "end": 3077,
+      "start": 2992,
+      "end": 2993,
       "loc": {
         "start": {
           "line": 85,
@@ -8161,8 +8161,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 3077,
-      "end": 3078,
+      "start": 2993,
+      "end": 2994,
       "loc": {
         "start": {
           "line": 85,
@@ -8187,8 +8187,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 3078,
-      "end": 3078,
+      "start": 2994,
+      "end": 2994,
       "loc": {
         "start": {
           "line": 85,
