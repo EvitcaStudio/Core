@@ -1440,6 +1440,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/submodules/utils/src/utils.mjs~utilssingleton#getminimal",
+    "class/src/submodules/Utils/src/utils.mjs~UtilsSingleton.html#instance-method-getMinimal",
+    "src/submodules/Utils/src/utils.mjs~UtilsSingleton#getMinimal",
+    "method"
+  ],
+  [
     "src/submodules/utils/src/utils.mjs~utilssingleton#getpercentage",
     "class/src/submodules/Utils/src/utils.mjs~UtilsSingleton.html#instance-method-getPercentage",
     "src/submodules/Utils/src/utils.mjs~UtilsSingleton#getPercentage",
